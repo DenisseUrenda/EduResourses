@@ -1,0 +1,214 @@
+---
+title: "Manipulación de datos"
+subtitle: "Parte I: El conjunto `gapminder`"
+author: "Denisse Urenda Castañeda"
+date: "Febrero 11, 2023"
+output: 
+ html_document:
+   toc: true
+   toc_float: true
+   toc_depth: 3
+   df_print: paged
+   code_folding: show
+   theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Accediendo al conjunto de datos
+
+En esta demo usaremos el conjunto de datos `gapminder` disponible en el paquete con el mismo nombre. Usaremos la función `install.packages()` para instalar el paquete y luego la función `library()` para cargarlo a `R`.
+
+```{r eval = -1}
+install.packages("gapminder")
+library(gapminder)
+```
+Una vez instalado y cargado el paquete, podemos acceder al conjunto de datos `gapminder` y su documentación usando las funciones `data()` y `help()`.
+
+```{r, eval = -2}
+data("gapminder")
+help(gapminder)
+```
+
+La última línea de código deberá mostrar la documentación en el panel de ayuda si estas desde RStudio. Si estas desde la consola de `R`, se deberá abrir una página web en tu navegador predeterminado.
+
+Según la descripción de la documentación, este conjunto de datos contiene información sobre la esperanza de vida, el PIB (producto interno bruto) per cápita y la población por país. Éste es un data frame con 1704 observaciones (renglones) y 6 variables (columnas). La siguiente tabla contiene una descripción de las variables que componen al conjunto de datos. Esta fue extraida directamente de la documentación.
+
+|Variable    |Descripción                                  |
+|:-----------|:--------------------------------------------|
+|`country`   |país: factor con 142 categorías              |
+|`continent` |continente: factor con 5 categorías          |
+|`year`      |año: de 1952 a 2007 en incrementos de 5 años |
+|`lifeExp`   |esperanza de vida al nacer, en años          |
+|`pop`       |población                                    |
+|`gpdPercap` |PIB per cápita (dólares americanos)          |
+: Descripción del contenido del conjunto de datos `gapminder`.
+
+
+## Visualización del conjunto
+
+Visualicemos ahora el conjunto de datos. Para esto podemos usar las funciones `str()`, `summary()`, y/o `head()`. Usemos las tres para ver que información proporciona cada una de ellas.
+
+### La función `str()`
+The función `str()` muestra la e**str**uctura interna del objeto que le pasemos. En este caso, la estructura de `gapminder`
+```{r}
+str(gapminder)
+```
+Al inicio nos dice que `gapminder` es un `tibble` y no un `data.frame`. Los *tibbles* son versiones modificadas de los data frames. Son especialmente útiles cuando tenemos un conjunto de datos enorme. Por ahora, imaginemos que son lo mismo.
+
+A un lado de la palabra *tibble*, nos muestra `[1,704 x 6]`. Esto nos indica el tamaño (o dimensión) del conjunto de datos. Este conjunto tiene 1704 observaciones y 6 variables. Puedes obtener el mismo resultado ejecutando `dim(gapminder)`.
+
+A partir de la segunda línea, nos muestra una descripción breve de cada variable. El signo `$` indica *variable*. La primera variable es `country` que es de tipo factor con 142 categorías que empiezan con "Afghanistan". Los valores después de `:` indican los valores que son almacenados. Al ser ésta una variable de tipo factor, las categorías son alamacenadas como números (con etiqueta). En este caso, los 1's indicarían la categoría "Afghanistan". Los tres puntos (...) indican que la lista de valores continua.
+
+De manera similar, podemos extraer información de las otras variables, como, por ejemplo, `year` que es una variable entera (`int`) con 1704 valores. Sus primeros valores son 1952, 1957, 1692, .... 
+
+Por último, de aquí podemos deducir el tipo de variable que es cada una. `country` y `continent` son  variables categóricas (`factor` en `R`) y las restantes son variables numéricas (`numeric` o `integer` en `R`).
+
+### La función `summary()`
+
+Otra función que nos ayuda a visualizar el conjunto de datos de manera resumida es `summary()` (resumen en inglés). Veamos que nos dice
+
+```{r}
+summary(gapminder)
+```
+
+En el caso se las variables categóricas, como `country` y `continent`, nos muestra las diferentes categorías y un conteo de cada una de éstas. Esto es, en la variable `continent`, la categoría Africa aparece 624 veces, Americas 300, Asia 396, Europe 360 y Oceania 24 veces.
+
+Para las variables numéricas como `year`, `lifeExp`, `pop` y `gdpPercap`, `summary()` nos muestra la media, los tres cuartiles y los valores mínimo y máximo. Por ejemplo, el PIB per capita (`gpdPercap`) mínimo registrado es 241.2 y el máximo registrado es 113523.1.
+
+No te asustes con los valores que aparecen en la variable `pop`, es notación científica, o sea, `6.001e+04` es lo mismo que $6.001\times10^4=60,010$ y `1.319e+09` es igual a $1.319\times10^9=1,319,000,000$.
+
+### La función `head()`
+
+Por último, veamos la función `head()`. Ésta nos muestra la primera porción del conjunto de datos. Podemos especificarle cuantas observaciones queremos visualizar con el argumento `n`. 
+
+**Nota:** `tail()` hace lo mismo pero con la última porción del conjunto de datos.
+
+```{r}
+head(gapminder, n = 8)
+```
+
+En el caso en el que el conjuto de datos sea un `tibble` nos mostrará, abajo del nombre de la variable, el tipo de variable. Por ejemplo, `lifeExp` es de tipo `<dbl>`, que es "sinónimo" de `numeric`. Debajo de `country` aparece `<fctr>` lo que significa `factor`. Seguido de esto, aparecerán las observaciones. La primera observación es (Afganistan, Asia, 1952, 28.801, 8425333, 779.4453), que se puede leer como: *en el país de Afganistan del continente de Asia en el año 1952, la esperanza de vida era de 28.801 años, la población de 8,425,333 habitantes con un PIB per cápita de 779.4453 dólares americanos*.
+
+## Limpieza del conjunto
+
+Cuando se quiere usar un conjunto de datos para hacer cualquier tipo de análisis estadístico el primer paso casi siempre es limpiar el conjunto de datos. Es decir, buscar los datos faltantes (`NA`s o cadenas vacías `""`) o datos incorrectos. También es común darle el formato adecuado a las variables.
+
+### La función `is.na()`
+
+Empecemos por buscar si hay datos faltantes o valores `NA`. La función `is.na()` evalua los elementos de un objeto en `R`, por ejemplo, un data frame o tibble, y regresa `TRUE` o `FALSE` si el elemento es `NA` o no, respectivamente. Por ejemplo,
+
+```{r}
+x = c(1,2,3,NA,4,5,NA)
+is.na(x)
+```
+La función regresó `TRUE` en las posiciones 4 y 7 del vector y `FALSE` para las restantes pues en en el vector `x`, los elementos 4 y 7 son `NA`s.
+
+En nuestro caso, solo nos interesa saber si hay algún (any en inglés) valor `NA` en `gapminder`, por lo que combinando estas dos funciones podríamos contestar a esta pregunta
+```{r}
+any(is.na(gapminder)) # leelo como ¿algún valor es NA en gapminder?
+```
+¡Que bien! No hay ningún `NA`. Peeero, este no es el único tipo de valor faltante. Veamos el segundo, las cadenas vacías.
+
+### La función `which()`
+
+Para comparar dos valores (numéricos o caracteres) específicos debemos usar operadores lógicos: `==` para la igualdad, `>` , `<`, `>=`, `<=`, o `!=` para la diferencia. Veamos como funciona `==`
+
+```{r}
+x = c("A","B","C","","","D")
+x == ""
+```
+`==` comparará uno a uno los valores de `x` con la cadena vacía `""` y regresará `TRUE` si son idénticas o `FALSE` si no lo son. En este caso, regresa `TRUE` en la posición 4 y 5, que coinciden perfectamente con la posición de las cadenas vacías en `x`, y regresa `FALSE` en las posiciones restantes pues no son cadenas vacías.
+
+De nuevo, no estamos interesados en saber las posiciones de las cadenas vacías, por ahora, por lo que sería suficiente con usar `any()` en combinación con los operadores lógicos para saber si hay alguna cadena vacía de `gapminder`
+
+```{r}
+any(gapminder == "") # Leelo como ¿Hay algún valor en gapminder igual a "")
+```
+¡Fiuuuu! Tampoco hay cadenas vacías. Peeeero, si las hubiera, nos interesaría saber la posiciones de tales cadenas vacías. Aquí es donde entra la función `which()`
+
+```{r}
+x = c("A","B","C","","","D")
+which(x == "")
+```
+
+Esta nos regresa la posición de las cadenas vacías en `x`, justamente la 4ta y 5ta. ¿Qué pasará si lo aplicamos a nuestro conjunto de datos?
+
+```{r}
+which(gapminder == "")
+```
+¿No esperabas que regresara alguna posición o sí? Al no haber cadenas vacías en `gapminder`, ésta regresa `integer(0)`, o sea, no hay posición que regresar.
+
+### La función `unique()`
+
+Ok, parece no haber datos faltantes, y a juzgar por el resumen que obtuvimos previamente, no parece haber datos incorrectos. 
+
+```{r}
+summary(gapminder)
+```
+
+Tal vez te preguntes, ¿cómo puedo saber si hay registros incorrectos? La verdad es que no puedes, a menos que sean muy evidentes. Si, por ejemplo,  en el resumen del conjunto de datos, en la variable `pop` el registro más pequeño, o sea el mínimo, es -45, evidentemente hay un registro incorrecto pues no puede haber un país con población negativa.
+
+¿Qué hay de las variables categóricas? Tal vez alguna categoría esté mal escrita. Veamos las categorías distintas o únicas de cada variable categórica
+
+```{r}
+unique(gapminder$continent)
+```
+La función `unique()` nos regresa los nombre únicos que aparecen en la variable `continent` del conjunto de datos. Cuando la variable es tipo factor, como es el caso, también podemos usar la función `levels()` para obtener las categorías.
+
+```{r}
+levels(gapminder$continent)
+```
+Incluso, podemos usar esta misma para cambiar el nombre de algunas categorías o "niveles" (de aquí el nombre de la función). Cambiemos la categoría "Americas" por "America".
+
+```{r}
+levels(gapminder$continent)[2] = "America"
+levels(gapminder$continent)
+```
+Así está mejor.
+
+Ahora veamos las categorías de `country`
+
+```{r}
+levels(gapminder$country)
+```
+
+Esas son muchas, enfoquemonos en solo una de ellas.
+
+```{r}
+levels(gapminder$country)[c(28,29,56,70,71,140)]
+```
+Tal vez te pregustes porque esas en específico. Bueno, la única razón es porque no me gustan esas comas que aparecen allí, así que vamos a cambiarlas.
+
+```{r}
+levels(gapminder$country)[c(28,29,56,70,71,140)] = 
+  c("Congo-Kinshasa","Congo-Brazzaville","Hong Kong", 
+    "North Korea", "South Korea", "Yemen")
+levels(gapminder$country)[c(28,29,56,70,71,140)]
+```
+
+[Aquí](https://theculturetrip.com/africa/congo/articles/congo-vs-d-r-c-whats-the-difference/) sobre la elección de los nombres para "Congo, Dem. Rep." y "Congo, Rep." y [acá](https://en.wikipedia.org/wiki/Korea#:~:text=Korea%20(Korean%3A%20%ED%95%9C%EA%B5%AD%2C%20Hanguk,Korea)%20comprising%20its%20southern%20half.) para los nombres de "Korea, Dem. Rep." y "Korea, Rep.".
+
+## Guardado el conjunto de datos
+
+Ya que nuestro conjunto está "limpio", quiza querramos guardarlo para la próxima vez que lo usemos. Lo podemos guardar como un archivo .csv con la funcion `write.csv()`.
+
+### La función `write.csv()`
+
+Esta función toma muchos argumentos, pero dos son necesarios: 
+
+  `x`: el nombre del objeto que queremos guardar
+  
+  `file`: el nombre del archivo en el que lo queremos guardar con extensión incluida
+
+```{r, eval = F}
+write.csv(gapminder, "gapminder.csv")
+```
+
+Hay algunos argumentos que tal vez quieras usar dentro de la función `write.csv()` como `row.names` y `col.names`. Busca en la documentación que hacen estos argumentos.
+
+## Otros recursos
+
+Puedes encontrar el archivo .Rmd en [mi repositorio](https://github.com/DenisseUrenda/EduResourses) bajo el nombre *ManipulacionGapminder.Rmd* en [Github](https://github.com/).
