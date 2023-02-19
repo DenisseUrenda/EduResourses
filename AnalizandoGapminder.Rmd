@@ -1,0 +1,746 @@
+---
+title: "Análisis estadístico"
+subtitle: "El conjunto `gapminder`"
+author: "Denisse Urenda Castañeda"
+date: "Febrero 17, 2023"
+output: 
+ html_document:
+   toc: true
+   toc_float: true
+   toc_depth: 3
+   df_print: paged
+   code_folding: show
+   theme: united
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd("C://Users//denis//OneDrive - Universidad Autonoma de Ciudad Juarez (UACJ)//Clases UACJ//Estadistica I//Html/")
+```
+
+```{r klippy, echo = FALSE, include = TRUE}
+# remotes::install_github("rlesur/klippy")
+library(klippy)
+klippy::klippy(position = c('top', 'right'))
+```
+
+## Un pequeño resumen de la demo anterior
+
+En la demo anterior titulada [Manipulando Gapminder](https://rpubs.com/DenisseUC/ManipulandoGapminder) aprendimos como acceder a un conjunto de datos mediante la instalación de un paquete usando `install.packages()`, exploramos el conjunto de datos accediento a su documentación con `help()`, vimos su estructura con `str()`, el conjunto resumido usando `summary()` y algunas de sus primeras observaciones con `head()`.
+
+Limpiamos el conjunto de datos buscando valores faltantes como `NA` y `""` usando las funciones `is.na()`, `any()` y `which()` en conjunto con operadores lógicos como `==`. También corregimos datos incorrectos en las variables categóricas usando `unique()` y `levels()`.
+
+Por último, amacenamos el conjunto en nuestra computadora usando la función `write.csv()`, así que en esta demo partiremos de este último punto.
+
+## Cargando los datos
+
+Hemos guardado el conjunto que limpiamos en la demo anterior en un archivo llamado *gapminder.csv*. Es momento de traerlo de vuelta. Para esto podemos usar la función `read.csv()`. Esta función tiene varios argumentos, pero el único requerido es `file` que corresponde al nombre del archivo como cadena de caracteres, es decir, entre comillas.
+
+```{r}
+gapminder = read.csv(file = "gapminder.csv")
+```
+
+Si no viste la demo anterior y, por lo tanto, no tienes este archivo en tu computadora puedes cargarlo a `R` directamente corriendo las siguientes líneas
+
+```{r, eval = F}
+url = "https://raw.githubusercontent.com/DenisseUrenda/EduResourses/main/gapminder.csv"
+gapminder = read.csv(url)
+```
+
+El url es la dirección dentro de mi repositorio donde se encuentra el archivo *gapminder.csv*. Puedes echar un vistazo [aquí](https://github.com/DenisseUrenda/EduResourses/blob/main/gapminder.csv) si quieres.
+
+Ahora ya tenemos acceso al conjunto de datos que almacenamos anteriormente. Veamos en que formato se encuentran las variables. ¿Se habrán almacenado como estaban antes? Primero usemos `head()` para ver sus primeras observaciones.
+
+```{r}
+head(gapminder, n = 5)
+```
+
+## Visualizando los datos
+
+Ok, algo raro ha ocurrido en la sección anterior. Aparece una columna que antes no estaba, `X`. Bueno, esto es porque cuando guardamos nuestro conjunto de datos usando `write.csv()` no le especificamos a la función que no escribiera los índices de las obervaciones. Esto se puede evitar usando el argumento `row.names = FALSE`. Ya será para la próxima. Por esta ocasión solo eliminemos esa columna. Esto se puede hacer usando el símbolo `$` que extrae columna de los conjuntos de datos y usando el valor especial `NULL` de `R`.
+
+```{r}
+gapminder$X = NULL
+```
+
+La instrucción anterior le dice a `R` que vuelva *vacía* la variable `X` del conjunto de datos `gapminder`. Veamos si se hizo el cambio.
+
+```{r}
+head(gapminder, n = 5)
+```
+
+Muy bien, ya eliminamos esa columna extra. Veamos ahora la estructura del conjunto de datos usando `str()`
+
+```{r}
+str(gapminder)
+```
+
+Mmmm... si mal no recuerdo, originalmente `country` y `continent` eran variables de tipo factor pero, ahora dice que son de tipo caracter. Esto es porque al amacenar nuestro conjunto de datos, la función `write.csv()` no conserva los formatos de las variables. Pero esto tiene solución. Cambiemos las variables a tipo factor con la función `factor()`.
+
+### La funcion `factor()`
+
+Esta función cambia cualquier variable, númerica o de tipo caracter, en una variable de tipo factor (o categórica). Debemos pasarle la variable que queremos cambiar y si queremos que el cambio se conserve debemos reasignarlo a la variable del conjunto de nuevo
+
+```{r}
+gapminder$country = factor(gapminder$country)
+gapminder$continent = factor(gapminder$continent)
+```
+
+Verifiquemos que se realizó el cambio.
+
+```{r}
+str(gapminder)
+```
+
+Ahora sí aparecen como tipo factor con 142 y 5 categorías, respectivamente. Éstas no son variables de tipo factor ordenado, o sea, variables ordinales, por lo tanto, no fue necesario especificar un orden a los factores, pero si quisieras especificar un order podrías hacerlo usando el argumento `ordered = TRUE` y `labels` en la función `factor()`.
+
+Imagina que tienes una variable cuyas categorías son "Leve", "Moderado" e "Intenso"
+
+```{r}
+set.seed(1)
+dolor = sample(x = c("Leve","Moderado","Intenso"), size = 20, replace = TRUE)
+dolor
+```
+
+A ver, han pasado muchas cosas aquí. Primero, la funcion `set.seed()` fija una semilla para la generación de cualquier proceso aleatorio. Esto sirve para que cualquiera que reproduzca el código anterior obtenga el mismo resultado. Solo debe utilizar la misma semilla: `1`. Luego, la función `sample()` genera muestras del tamaño que le especifiques, en nuestro caso de tamaño 20 (`size = 20`) con reemplazo (`replace = TRUE`) del vector que le pasemos a `x`. O sea que, de forma aleatoria, `sample()` eligirá 20 valores repetidos del vector `c("Leve","Moderado","Intenso")`.
+
+Muy bien, ahora, este vector (`dolor`) es un vector de tipo caracter
+
+```{r}
+class(dolor)
+```
+
+Para que se convierta en un vector de tipo factor debemos usar la funcion `factor()`
+
+```{r}
+factor(dolor)
+```
+
+Pero, estas categorías siguen un orden natural, entonces, éste debe ser un vector de tipo factor ordenado (variable ordinal). Usemos el argumento `ordered = TRUE` dentro de la funcion `factor()` para que lo almacene como factor ordenado
+
+```{r}
+factor(dolor, ordered = TRUE)
+```
+
+Observa que éste agrego al final la leyenda `Levels: Intenso < Moderado < Leve`. El `<` indica que las categorías estan ordenadas, peeeero el orden es incorrecto. Intenso no es menor que Moderado, ni Moderado menor que Leve. ¿Por qué tienen este orden? Al no decirle el orden que las categorías siguen, `R` las ordena usando el orden alfabético. Para arreglar esto, debemos usar el argumento `labels` y especificar las categorías en orden, de menor a mayor y volverlo a asignar a `dolor` para que el cambio se realice
+
+```{r}
+dolor = factor(dolor, labels = c("Leve","Moderado","Intenso"),  ordered = TRUE)
+dolor
+```
+
+## Analizando los datos
+
+Ahora analizaremos numérica y gráficamente los datos del conjunto `gapminder`. Para eso, debemos diferenciar las variables como categórica o numérica. Recordemos que las variables categóricas son `country` y `continent`, y las variables numéricas son `year`, `lifeExp`, `pop` y `gdpPercap`.
+
+### La función `table()`
+
+Analicemos primero las variables categóricas compactándolas en una tabla de frecuencias. Para hacer una tabla de frecuencias podemos usar la función `table()`
+
+```{r}
+table(gapminder$country)
+```
+
+Esta función nos regresa las frecuencias absolutas de cada categoría en la variable `country`. No es muy útil esta tabla pues todos los países aparecen 12 veces.
+
+Veamos `continent`
+
+```{r}
+table(gapminder$continent)
+```
+
+Bueno, ésta está mejor. Nos dice que *África* aparece 624 veces en el conjunto de datos, *América* 300 veces, *Asia* 396, *Europa* 360 y *Oceanía* 24 veces.
+
+### La función `prop.table()`
+
+Podriamos también querer calcular las frecuencias relativas. Esto se puede hacer con la función `prop.table()` pero ésta toma como argumento una tabla. Sí, raro, pero es lo que es
+
+```{r}
+prop.table(table(gapminder$continent))
+```
+
+Y si queremos las frecuencias porcentuales, mutiplicamos por 100 la línea anterior
+
+```{r}
+prop.table(table(gapminder$continent))*100
+```
+
+O sea, África aparece el 36.6% de las veces en el conjunto de datos y 1.4% Oceanía.
+
+Podemos unir todo en uno con la función `cbind()`
+
+```{r}
+t = table(gapminder$continent)
+df = cbind(t, prop.table(t), prop.table(t)*100)
+colnames(df) = c("Absoluta","Relativa","Porcentual")
+df
+```
+
+
+### La función `barplot()`
+
+Una forma más conveniente de analizar los datos anteriores es utilizando gráficas. Podemos hacer, principalmente, dos tipos de gráficas para variables categóricas. Los diagramas de barras y de pastel. En `R` podemos hacer cada uno de estos con las funciones `barplot()` y `pie()`. La función `barplot()` toma, entre otros, los siguientes argumentos
+
+| Argumento       | Descripción                                                              | Valor por defecto |
+|------------------|------------------------------------|------------------|
+| `height`        | Altura del barras                                                        |                   |
+| `width`         | Ancho de las barras                                                      | `1`               |
+| `space`         | Espacio entre las barras                                                 | `NULL`            |
+| `horiz`         | Valor lógico indicando si las barras deben ser dibujadas horizontalmente | `FALSE`           |
+| `density`       | Número de líneas de sombreado por pulgada cuadrada                       | `NULL`            |
+| `angle`         | Ángulo de las líneas de sombreado                                        | `45`              |
+| `col`           | Color de las barras                                                      | `NULL`            |
+| `main` / `sub`  | Título / subtítulo de la gráfica                                         | `NULL` / `NULL`   |
+| `xlab` / `ylab` | Etiquetas en eje x / y de la gráfica                                     | `NULL` / `NULL`   |
+| `xlim` / `ylim` | Límites en eje x / y                                                     | `NULL` / `NULL`   |
+
+Observando la última columna titulada *Valor por defecto*, el único argumento requerido es `height`. Veamos como se ve la gráfica si dejamos todos los valores por defecto que tiene y solo le especificamos `height`.
+
+```{r}
+barplot(height = table(gapminder$continent))
+```
+
+La función hace lo que promete, una gráfica de barras. Pero es muy ... sin chiste. Hagámosla más llamativa.
+
+```{r}
+barplot(
+  height = table(gapminder$continent), # Alturas
+  density = 25,                        # Líneas de sombreado en barras
+  angle = 30,                          # Ángulo de inclinación de las líneas
+  col = "#F67D53",                     # Color de barras en código hexadecimal
+  border = "#F67D53",                  # Color de borde 
+  xlab = "Continente",                 # Etiqueta en eje x
+  ylab = "Frecuencia",                 # Etiqueta en eje y
+  main = "Gráfico de barras"           # Título
+)
+```
+
+Mucho mejor. Podemos apreciar que contienentes aparecen con mañor frecuencia y cuales con menor.
+
+Para más colores en código hexadecimal cliquea [aquí](https://htmlcolorcodes.com/es/).
+
+### La función `pie()`
+
+También podríamos hacer un gráfico de pastel con la función `pie()`. Esta toma, entre mucho otros, los siguientes argumentos
+
+| Argumento | Descripción                                                            | Valor por defecto |
+|------------------------|------------------------|------------------------|
+| `x`       | Vector numérico con frecuencias                                        |                   |
+| `labels`  | Etiquetas de las piezas                                                | `names(x)`        |
+| `edges`   | Número de lados del polígono que crea el círculo                       | `200`             |
+| `radius`  | Radio del círculo circunscrito en un cuadrado de 2x2 centrado en (0,0) | `0.8`             |
+| `border`  | Color de borde                                                         | `NULL`            |
+| `lty`     | Tipo de línea                                                          | `NULL`            |
+| ...       | Otros parámetros gráficos                                              |                   |
+
+Además de los argumentos `density`, `angle`, `col`, `main`, `sub`, `xlab`, `ylab` ya mencionados anteriormente.
+
+Otra vez, veamos como se ve si no especificamos ningún argumento más que `x` .
+
+```{r}
+pie(x = table(gapminder$continent))
+```
+
+Algo feo, ¿no? Personalicémoslo
+
+```{r}
+pie(
+  x = table(gapminder$continent),        # Frecuencias
+  col = hcl.colors(n = 5, alpha = 0.8),  # Colores generados por la función
+  border= "white",                       # Color del borde
+  main = "Gráfico de pastel",            # Título del gráfico
+)
+```
+
+La función `hcl.colors()` genera una secuencia de `n` colores con una transparencia especificada por `alpha` de la paleta "Viridis", por defecto. Si quieres cambiar la paleta usa el argumento `palette`. Para conocer una lista de las paletas disponibles cliquea [aquí](https://blog.r-project.org/2019/04/01/hcl-based-color-palettes-in-grdevices/).
+
+También podemos modificar las etiquetas que aparecen en el gráfico de pastel usando el argumento `labels`. Creémos primero las etiquetas
+
+```{r}
+tab = table(gapminder$continent)    # Guardando tabla de frecuencias
+continentes = names(tab)            # Guardando nombres de la tabla
+porcentajes = tab/sum(tab)*100      # Calculando porcentajes
+porcentajes = round(porcentajes, 2) # Redondeando porcenjates a dos decimales
+```
+
+Ahora, uniremos el nombre del contienente con su porcentaje usando la función `paste0()`. Esta función pega elemento a elemento de dos o más vectores.
+
+```{r}
+etiquetas = paste0(continentes, "\n" , porcentajes, "%")
+etiquetas
+```
+
+Si te preguntas que hace "\\n", éste es un "caracter" especial que le dice a `R` que queremos un salto de línea. Entonces, "Africa\\n36.62%" debería verse en pantalla como
+
+Africa
+
+36.62%
+
+Ahora sí, usemos el argumento `labels` para cambiar las etiquetas. Usemos el código del gráfico de pastel que hicimos anteriormente
+
+```{r}
+pie(
+  x = table(gapminder$continent),        
+  labels = etiquetas,                     # Agregando etiquetas
+  col = hcl.colors(n = 5, alpha = 0.8),  
+  border= "white",                       
+  main = "Gráfico de pastel",           
+)
+```
+
+Es evidente, África tiene la gran mayoria y Oceanía la menor frecuencia.
+
+### La función `sapply()`
+
+`gapminder` es un conjunto de datos de un conjunto de medidas tomadas a lo largo de los años 1952 y 2007 en incrementos de 5 años para 142 países. En este análisis numérico y gráfico nos enfocaremos en un solo año: 2007. Para extraer las observaciones que corresponden únicamente al año 2007 usemos indexación lógica
+
+```{r}
+gap2007 = gapminder[gapminder$year == 2007, ]
+```
+
+Recuerda que para extraer valores de un conjunto de datos usamos `[,]`. La coma separa las observaciones (o renglones) de las variables (o columnas). Con esta línea, le estoy diciendo a `R` que extraiga solo las observaciones cuyo valor en `year` es igual a 2007 y todas la columnas.
+
+```{r}
+head(gap2007, n = 5)
+```
+
+Ve que ahora `year` tiene solo los valores 2007, esta variable ya no aporta información relevante para nuestro análisis pues todos estos valores son iguales para cada observación. Eliminémosla de nuestro conjunto
+
+```{r}
+gap2007$year = NULL
+head(gap2007, n = 5)
+```
+
+Bien. Ahora solo tenemos las variables `country`, `continent`, `lifeExp`, `pop` y `gdpPercap` del año 2007. Calculemos algúnas medidas estadísticas como la media, el mínimo, el máximo y la desviación estándar con cada una de estas variables numéricas. Si lo hacer "manualmente" para cada una de ellas tendríamos que hacer
+
+```{r}
+mean(gap2007$lifeExp)
+mean(gap2007$pop)
+mean(gap2007$gdpPercap)
+```
+
+para cada variable numérica. Esto es impráctico pues si tuvieramos que aplicarlo a 100 variables no querriamos escribir 10 veces `mean(data$var)`. En lugar de eso podemos usar la función `sapply()`. Esta función le aplica (o apply en inglés) a las columnas del conjunto de datos que le pasemos la función que le especifiquemos. Veamos un ejemplo, si quiero calcular la media (`mean`) de cada variable del conjunto `gap2007` podemos correr la siguiente línea
+
+```{r}
+sapply(X = gap2007, FUN = mean)
+```
+
+¿Qué paso con `country` y `continent`? ¿Por qué salieron `NA`s? Bueno, la función arrojó `NA`s para estas variables pues éstas no son numéricas sino categóricas. Esto quiere decir que si quiero aplicar una función como `mean()` solo a las variables numéricas del conjunto de datos, debo excluir aquellas que no son numéricas. Esto lo podemos hacer dentro de la función `sapply()` sin tener que modificar el conjunto de datos real. Veamos como
+
+```{r}
+num = c("lifeExp","pop","gdpPercap")
+sapply(gap2007[ ,num], mean)
+sapply(gap2007[ ,num], min) 
+sapply(gap2007[ ,num], max)
+sapply(gap2007[ ,num], sd)
+```
+
+El `[, num]` toma todas las observaciones del conjunto pero solo las variables almacenadas en `num`, o sea `lifeExp`, `pop` y `gdpPercap`.
+
+La siguiente tabla muestra los estadísticos calculados para cada variable numérica
+
+```{r, echo = F}
+resumen = function(x, funlist){
+  res = NULL
+  for(f in funlist) res = rbind(res,sapply(x, f))
+  return(res)
+}
+tab = resumen(gap2007[,num], list(mean, min, max, sd))
+rownames(tab) = row.names = c("Media","Mínimo","Máximo","Desviación estándar")
+knitr::kable(tab, digits = 2)
+```
+
+¿Qué nos dicen estos estadísticos?
+
+-   La esperanza de vida promedio en el año 2007 era de 67.01 años.
+
+-   El país con menos población en el mundo en 2007 tenía apenas 199,579 habitantes.
+
+-   El mayor PIB (producto interno bruto) per cápita en el mundo en 2007 era de 49,357.19 dólares.
+
+### La función `cut()`
+
+Hagamos ahora algunas gráficas para visualizar la forma algunas variables numéricas en el conjunto de datos. 
+
+Primero necesitamos hacer una distribución de frecuencias. Recuerda que la distribución de frecuencias es como la tabla de frecuencias para variables categóricas, pero para variables numéricas. La función `table()` también puede ser usada aquí pero antes debemos crear las clases para nuestra variable. Retomemos la variable `lifeExp` del conjunto `gap2007`.
+
+```{r}
+range(gap2007$lifeExp)
+```
+Los valores de esta variable van de 39.613 a 82.603. Podríamos apliar el rango de valores de 30 a 90 para que las clases sean más fácil de crear y visualizar.
+
+Determinemos ahora el número de clases
+
+```{r}
+n = length(gap2007$lifeExp)  # Número de observaciones (142)
+sqrt(n)                      # Primera fórmula
+log2(n)                      # Segunda fórmula
+1 + 3.322*log(n)             # Tercer fórmula
+```
+La primer fórmula nos sugiere hacer 12 clases, la segunda 7 y la tercera 17. Me iré por la segunda. Determinemos ahora el ancho de clase
+
+```{r}
+(90-30)/7
+```
+Mmmm... Ese ancho de clase no me gusta. ¿Qué tal si lo redondeamos a 10? Claro que este redondeo afectaré al final el número de clases que se generen, pero no debería ser tanto. 
+
+Ahora sí, creemos los límites de clase. Para eso podemos usar la función `seq()`
+
+```{r}
+limites = seq(from = 30, to = 90, by = 10)
+limites
+```
+
+Y luego convertamos cada observación de `lifeExp` en su respectiva clase con la función `cut()`
+
+```{r}
+clases = cut(x = gap2007$lifeExp, breaks = limites)
+head(clases, n = 10)
+```
+
+para posteriormente contar la frecuencia de cada clase con `table()`
+
+```{r}
+table(clases)
+```
+
+¡Bien! Ahora podemos observar que para casi la mitad de los países (70 de 142) la esperanza de vida promedio en el 2007 era de entre 70 y 80 años. Solo un país tenía una esperanza de vida primedio ¡menor a los 40! Luego podríamos averiguar que país.
+
+En resumen, para crear una tabla de frecuencias debemos, después de determinar ancho de clase y extender rango, 
+
+```{r}
+limites = seq(from = 30, to = 90, by = 10)           # 1. Determinar los límites
+clases  = cut(x = gap2007$lifeExp, breaks = limites) # 2. Crear las clases
+table(clases)                                        # 3. Contar las clases
+```
+
+### La función `hist()`
+
+Ahora visualicemos esta variable creando un histograma con la función `hist()`. 
+
+```{r}
+hist(gap2007$lifeExp)
+```
+
+Observa que no debimos especificarle nada a `hist()` más que la variable que queriamos visualizar. Como respuesta `R` nos regreso un histograma algo feo, la verdad. Pero, como nuestra experiencia con gráficas previas nos dice, esto puede mejorar. Veamos algunos de los argumentos que `hist()` tiene.
+
+| Argumento | Descripción                                                                                                                                                           | Valor por defecto |
+|-----------|---------------------------------------------------|-----------|
+| `x`       | vector de valores numéricos                                                                                                                                           |                   |
+| `breaks`  | vector con límites de clase, función para calcular límites, número de clases, nombre de método para calcula número de clases o función para calcular número de clases | `"Sturges"`       |
+| `freq`    | valor lógico indicando si se quiere conteo (`TRUE`) o densidad (`FALSE`).                                                                                             | `TRUE`            |
+| ...       | otros argumentos gráficos                                                                                                                                             |                   |
+
+Igual que en las funciones anteriores, `density`, `angle`, `col`, `border`, `main`, `xlab`, `ylab` también pueden ser especificados.
+
+Usemos algunos de sus argumentos para majorar el histograma creado anteriormente
+
+```{r}
+hist(
+  x = gap2007$lifeExp,                   # variable numérica
+  breaks = limites,                      # Límites de clase
+  col = 2,                               # Color de barras
+  xlab = "Esperanza de vida promedio",   # Etiqueta para eje x
+  ylab = "Número de paúses",             # Etiqueta para eje y
+  main = "Histograma"
+)
+box()                                    # Agrega marco
+```
+
+Mucho mejor que el anterior. ¡Y podría mejorar! Pero, ¿qué hicimos diferente? Cambiamos las clases con `breaks`, el color de las barras con `col` y las etiquetas con `main`, `xlab` y `ylab`. ¡Ah! también agregamos un marco con la función `box()`. ¿Qué otras mejoras se te ocurren?
+
+Ahora, ¿qué nos dice el histograma acerca de la distribución de la variable `lifeExp`?
+
+- La distribución no es simétrica.
+
+- La distribución tiene un sesgo negativo pues se ve como la cola de la distribución se extiende a la izquierda.
+
+- Probablemente haya algún o algunos datos atípicos en la cola izquierda.
+
+- La moda de esperanza de vida promedio está entre los 70 y 80 años.
+
+El penúltimo punto puede ser explorado de manera más precisa con un diagrama de caja. Veamos como.
+
+### La función `boxplot()`
+
+Un diagrama de caja puede ser usado también para determinar la forma de una distribución. Pero este nos da un poco más de información estadística. Para realizar el diagrama de caja más básico usa la función `boxplot()` de la siguiente forma
+
+```{r}
+boxplot(gap2007$gdpPercap)
+```
+
+El digrama por sí solo ya nos da algo de información aunque no tan precisa por la escala en el eje y, pero lo más evidente es la aparición de los valores atípicos. Esos círculos en la parte superior del diagrama.
+
+Para distinguir mejor las caracteristicas de la distribución hagamos algunos cambios dándole valores especificos a sus argumentos. Algunos son
+
+| Argumento    | Descripción                                                                                                                        | Valor por defecto |
+|--------------|------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| `x`          | vector de valores numéricos                                                                                                        |                   |
+| `outline`    | valor lógico indicando si se deben dibujar los datos atípicos (outliers)                                                           | `TRUE`            |
+| `plot`       | valor lógico indicando si se debe dibujar la gráfica. Si es FALSE, estadisticos con los que se realiza la gráfica serán calculados | `TRUE`            |
+| `horizontal` | valor lógico indicando si la gráfica debe ser dibujada horizontalmente                                                             | `FALSE`           |
+| `add`        | valor lógico indicando si debe ser agregado a una gráfica ya existente                                                             | `TRUE`            |
+| `at`         | posición de la gráfica                                                                                                             | `NULL`            |
+
+Al igual que en las funciones anteriores, `col`, `border`, `main`, `xlab`, `ylab` también pueden ser especificados.
+
+```{r}
+boxplot(
+  x = gap2007$gdpPercap,       # variable numérica
+  outline = FALSE,             # sin datos atípicos
+  horizontal = TRUE,           # diagrama horizontal
+  col = 3,                     # color de la caja
+  xlab = "PIB per cápita ($)"  # etiqueta de eje x
+)
+```
+
+Los estadísticos que podemos "recuperar" son
+
+- Mínimo no atípico: cercano a cero
+
+- Primer cuartil: por los $2,000
+
+- Mediana: por los $6,000
+
+- Tercer cuartil: cerca de los $17,000
+
+- Máximo no atípico: cercano a $40,000
+
+Nota que usamos el argumento `outline = FALSE`, lo que quiere decir que no están incluidos los datos atípicos en la gráfica. Esto puede ser útil cuando hay demasiamos datos atípicos o uno muy alejado de los demás y la distribución no se aprecia bien debido a esto. Por ejemplo
+
+```{r, warning = FALSE, echo = F}
+par(mfrow = c(1,2), mar = c(5,2,5,2))
+boxplot(gap2007$pop, horizontal = T, xlab = "Población",
+        main = "outline = TRUE")
+boxplot(gap2007$pop, horizontal = T, xlab = "Población", outline = F,
+        main = "outline = FALSE")
+```
+
+Pero, retomemos nuestro ejemplo anterior
+
+```{r}
+boxplot(x = gap2007$gdpPercap, outline = FALSE, horizontal = TRUE,
+        col = 3, xlab = "PIB per cápita ($)")
+```
+
+Podemos ver que
+
+- El 50% de los países tenían un producto interno bruto per cápita de entre \$2 mil y \$17 mil, approximadamente, en 2007.
+
+- Solo el 25% de los países tenían un PIB per cápita superior a los \$17 mil, approximadamente, en 2007.
+
+y que
+
+- La distribución no es simétrica.
+
+- La distribución tienen sesgo positivo ya que el "bigote" se extiende mucho hacia la derecha.
+
+- La distribución presenta datos atípicos (con base en nuestra primer diagrama).
+
+Por cierto, podemos obtener la información mostrada en el diagrama de caja usando el argumento `plot = FALSE`
+
+```{r}
+boxplot(gap2007$gdpPercap, plot = FALSE)
+```
+- `$stats` contiene la siguiente información
+
+    ```{r, echo = F}
+    bx = boxplot(gap2007$gdpPercap, plot = FALSE)
+    t = bx$stats; row.names(t) = c("Min*","Q1","Q2","Q3","Max*")
+    knitr::kable(t)
+    ```
+
+    Min* corresponde al dato mínimo no atípico y Max* al máximo no atípico.
+
+
+- `$n` es el tamaño de la muestra o número de observaciones en `gap2007$gdpPercap`.
+
+- `$conf` es el coeficiente de confianza para la mediana del 95%. O sea, la mediana se encuentra entre `r round(bx$conf[1,1],2)` y `r round(bx$conf[2,1],2)` dólares con un 95% de confianza (no te preocupes, luego lo entenderás).
+
+- `$out` muestra los valores atípicos: `r format(bx$out, scientific = F)`.
+
+Por el resto no te preocupes. No es importante en este caso.
+
+Psss... antes de que brinques a la siguiente sección observa que podemos obtener *casi* los mismos resultados que en `$stats` usando la función `fivenum()`
+
+```{r}
+fivenum(gap2007$gdpPercap)
+```
+Nota que el último número es distinto al presentado en `$stats`. Esto es porque la muestra tiene datos atípicos del lado derecho. Esta función regresa los datos mínimo, los tres cuartiles y máximo reales de la muestra.
+
+## Más allá de una simple gráfica
+
+### La función `par()`
+
+Podemos integrar varias gráficas en una sola figura con la función `par()` y sus argumentos `mfrow` o `mfcol`. 
+
+```{r, warning = FALSE}
+par(mfrow = c(1,3), mar = c(5,4,4,1))
+hist(gap2007$lifeExp)
+hist(gap2007$pop)
+hist(gap2007$gdpPercap)
+```
+
+El argumento `mfrow = c(1,3)` crea una cuadrícula de $1\times3$ (un renglón y 3 columnas) de modo que la figura está dividida en tres partes. En cada parte se dibuja la gráfica indicada de forma secuencial. Por otro lado, el argumento `c(5,4,4,1)` ajusta los márgenes de cada gráfica a 5, 4, 4 y 1 líneas para el margen de abajo, izquiera, arriba y derecha, respectivamente.
+
+No es necesario incluir los mismos tipos de gráficas en la misma figura. Incluso podemos personalizar cada una de ellas.
+
+```{r, warning=FALSE}
+par(mfrow = c(2,2), mar = c(5,5,1,1))
+barplot(
+  height = table(gapminder$continent), col = hcl.colors(1, alpha = 0.5),
+  xlab = "Frecuencia", horiz = T, las = 1
+)
+hist(
+  x = gap2007$lifeExp, density = 30, col = "pink",
+  xlab = "Esperanza de vida promedio", ylab = "Frecuencia",
+  main = ""
+)
+boxplot(gap2007$pop, outline = F, horizontal = T, xlab = "Población", col = 2)
+plot(
+  x = gap2007$lifeExp, y = gap2007$gdpPercap, 
+  xlab = "Esperanza de vida promedio", ylab = "PIB per cápita",
+  pch = 21, cex = 1.5, bg = "#FD9873"
+)
+```
+
+
+Esta función puede ser usada para modificar y/o consultar muchos más parámetros gráficos. Escribe `par()` o `?par` en la consola para obtener una lista completa de los parámetros gráficos que pueden ser modificados. Algunos de los que te pueden interesar se muestran en la siguiente tabla.
+
+|Argumento|Descripción|Valor por defecto|
+|---------|-----------|-----------------|
+|`bg`     |Color del fondo de la figura|`"white"`|
+|`bty`    |Tipo de marco       |`"o"`|
+|`cex`*    |Tamaño de punto o texto en gráfica|`1`|
+|`col`*   |Color de punto en gráfica|`"black"`|
+|`family` |Familia de fuente para texto: "serif", "sans", "mono"||
+|`fg`     |Color de la parte frontal de la gráfica|`"black"`|
+|`font`*   |Fuente de texto en número|`1`|
+|`lty`|Tipo de línea|`1`|
+|`lwd`|Ancho de línea|`1`|
+|`mar`|Vector numérico de la forma `c(abajo,izquierda,arriba,derecha)` que indique el tamaño de los márgenes|`c(5.1,4.1,4.1,2.1)`|
+|`mfcol`, `mfrow`|Vector de la forma `c(nr,nc)`. Gráficas subsecuentes serán dibujadas en un `nr`$\times$`nc` arreglo por columnas o renglones, respectivamente.|`c(1,1)`|
+|`pch`|Tipo de punto|`1`|
+
+\* Los subfijos `.axis`, `.lab`, `.main`, `.sub` pueden ser usados para modificar los ejes, las etiquetas, el título y subtitulo. Por ejemplo, `cex.lab` cambiará el tamaño de las etiquetas en los ejes y `col.main` el color del título de la gráfica.
+
+Las siguientes imágenes (izquierda) muestran los diferentes valores numéricos que puede tomar `font`, y `col` y su representación real. La figura de la derecha muestra los primeros 110 colores que la función `colors()` regresa. Para acceder a uno de ellos usa `colors()[i]` donde `i` es el número que se indica en la imagen.
+
+```{r, echo = F}
+par(mar = c(2,1,1,1), oma = c(1,1,3,1))
+layout(matrix(c(1,2,3,3), ncol = 2))
+# Figura 1
+plot(2:8,2:8, type = "n", xlim = c(0,10), axes = F, frame.plot = T)
+text(seq(2,8,2), 5.5, labels = 1:4)
+text(seq(2,8,2), 4.5, labels = c("plain","bold","italic","bold-italic"), font = 1:4)
+text(seq(2,8,2), 3.5, labels = c("plano","negritas","cursiva","negritas-cursiva"),
+     font = 1:4, cex = 0.7)
+text(5, 7, labels = "Tipo de fuente", cex = 1.4)
+
+#Figura 2
+plot(0:8, rep(1,9), pch = 19, cex = 5, col = 0:8, xlim = c(-0.5,8.5),
+     axes = F, frame.plot = T)
+text(0:8, 0.8, labels = 0:8)
+text(4, 1.25, labels = c("Colores por defecto en R"), cex = 1.4)
+
+# Figura 3
+plot(1:10,rep(1,10), pch = 15, cex = 4.5, axes = F, frame.plot = T,
+     col = colours()[1:10], xlim = c(0.5,10.5), ylim = c(-0.05,1.2))
+text(1:10, 1, labels = paste0("[",1:10,"]"), cex = 0.7)
+for(i in 1:10){
+  points(1:10,rep((10-i)/10,10), pch = 15, cex = 4.5, 
+         col = colours()[(10*i+1):(10*(i+1))])
+  cols = rep(1,10)
+  if(i == 2) cols[c(4,10)] = 0
+  else if(i == 7) cols[3] = 0
+  text(1:10, (10-i)/10, labels = paste0("[",(10*i+1):(10*(i+1)),"]"), cex = 0.7,
+       col = cols)
+}
+text(5.5, 1.15, labels = "Colores en colors()", cex = 1.4)
+```
+
+Una lista completa de los colores disponibles puede ser encontrada [aquí](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf) o una guía más extensa [acá](https://bookdown.org/hneth/ds4psy/D-3-apx-colors-basics.html).
+
+Las siguiente imágenes muestran los valores que `cex` puede tomar y el efecto que tienen sobre algún texto (izquiera) y los tipos de familia de fuente que puedes especificar en `family`. Los textos marcados en rojo son los usados por defecto.
+
+```{r, echo = F}
+par(mfrow = c(1,2), mar = c(1,1,1,1))
+plot(1:10, type="n", ylim = c(2,11), xlim = c(1,11), axes = F, frame.plot = T)
+cexs = c(0.25,0.5,0.75,1.0,1.25,1.5,1.75)
+cols = rep(1,7); cols[4] = "red"
+text(7, 9:3,"Texto", cex = cexs, col = cols)
+text(5, 9:3, labels = cexs, adj = 1, cex = 0.9, col = cols)
+text(6,10.5, "Tamaño de fuente", cex = 1.4)
+
+plot(1:10, type="n", xlim = c(1,11), ylim = c(4,10), axes = F, frame.plot = T)
+fam = c("sans","serif","mono")
+for(i in 1:3)
+  text(6, 8.5-i, labels =  fam[i], family = fam[i], cex = 1.5, col = ifelse(i==1,"red",1))
+text(6,9,"Familia de fuente", cex = 2)
+```
+
+Las siguientes imágenes muestran los valores que pueden ser usados para `pch`, `lty` y `lwd`, y los valores que representan cada uno.
+
+```{r, echo = F}
+par(mar = c(1,1,4,1))
+m = matrix(c(1,1,1,1,2,2,3,3), ncol = 4)
+layout(m)
+
+x = c(5,rep(1:5,5))
+y = rep(6:1,c(1,rep(5,5)))
+cols = rep(1,30); cols[2] = "red"
+plot(x,y, pch = 0:25, xlim = c(0,6), ylim = c(0,7), axes = F,
+     xlab = "", ylab = "", main = "Valores de pch", cex = 2.5, frame.plot = T,
+     cex.main = 1.5, col = cols, bg = "gray80")
+text(x,y-.35, 0:25, col = cols)
+
+cols = rep(1,7); cols[2] = "red"
+for(i in 0:6){
+  if(i == 0) plot(1:2, c(6,6)-i, type = "l", lty = i, xlim = c(0,2.5),
+                  ylim = c(-1,7), axes = F, xlab = "", ylab = "",
+                  main = "Valores de lty", lwd = 2, frame.plot = T,
+                  cex.main = 1.5)
+  else lines(1:2, c(6,6)-i, lty = i,lwd = 2, col = cols[i+1])
+}
+text(0.7,6:0, 0:6, col = cols)
+
+cols = rep(1,9); cols[1] = "red"
+plot(1:9, type = "n", ylim = c(0,10), axes = F, frame.plot = T,
+     main = "Valores de lwd", cex.main = 1.5)
+segments(4,9:1,8,9:1, lwd = 1:9, col = cols)
+text(3, 9:1, 1:9, col = cols)
+```
+
+### La función `layout()`
+
+Tal vez puedas estar interesado en crear multiples gráficas en un arreglo irregular como esta
+
+```{r echo = FALSE}
+x = sqrt(seq(129,1)) + runif(129,0.4)
+y = seq(129,1) + 4*runif(129,0.4)
+z = seq(1,129)^2 + runif(129,0.98)
+
+par(mar = c(5,5,1,1))
+nf = layout(
+  matrix(c(1,1,2,3), ncol=2, byrow=TRUE), 
+  widths=c(3,1), 
+  heights=c(2,2)
+)
+
+hist(x , breaks = 30, col = rgb(0.1,0.8,0.3,0.5),
+     xlab = "Variable x", ylab = "Frecuencia", main = "", las = 1)
+boxplot(y, xlab = "Variable y", col = rgb(0.8,0.8,0.3,0.5), horizontal = T)
+boxplot(z, xlab = "Variable z", col = rgb(0.4,0.2,0.3,0.5), las = 2)
+```
+
+Si es así, busca información sobre como usar `layout()` o da clic [aquí](https://r-graph-gallery.com/75-split-screen-with-layout.html#:~:text=The%20layout()%20function%20of,with%20reproducible%20code%20and%20explanation.). El código para generar (la versión original de) la gráfica anterior lo encontrarás allí mismo.
+
+## Otros recursos
+
+Puedes encontrar el archivo .Rmd en [mi repositorio](https://github.com/DenisseUrenda/EduResourses) bajo el nombre *AnalizandoGapminder.Rmd* en [GitHub](https://github.com/).
+
+Puedes encontrar aplicaciones web para practicar el uso de las funciones [plot](https://denisse-urenda.shinyapps.io/Plot/?_ga=2.13858679.1397149315.1676779513-1555334901.1676779513), [barplot](https://denisse-urenda.shinyapps.io/Barplot/?_ga=2.144418806.2101723254.1676779053-1381184768.1676779053) y [hist](https://denisse-urenda.shinyapps.io/Histogram/?_ga=2.144418806.2101723254.1676779053-1381184768.1676779053) de manera interactiva.
+
+¿Más sobre gráfico de barras, diagramas de pastel, histogramas o diagramas de caja? Da clic [aquí](https://r-graph-gallery.com/barplot.html), [aquí](https://r-graph-gallery.com/pie-plot.html), [aquí](https://r-graph-gallery.com/histogram.html) o [acá](https://r-graph-gallery.com/boxplot.html). También puedes consultar la galería completa por [aca](https://r-graph-gallery.com/index.html).
+
+
