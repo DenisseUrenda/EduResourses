@@ -1,114 +1,114 @@
-name,gender,age,status,income,visit,method,timeSpend,location,membershipCard,itemPurchaseCoffee,itemPurchaseCold,itemPurchasePastries,itemPurchaseJuices,itemPurchaseSandwiches,itemPurchaseOthers,spendPurchase,productRate,priceRate,promoRate,ambianceRate,wifiRate,serviceRate,chooseRate,loyal
-Jehan Polla De Accattatis,Female,20-29,Student,<25,Monthly,Dine In,30-60,<1,1,0,1,0,1,0,1,0-20,4,3,5,5,4,4,3,1
-Zandaya Oldach,Female,20-29,Student,<25,Monthly,Take away,<30,3-Jan,1,1,1,0,0,0,0,0-20,4,3,4,4,4,5,2,1
-Straton Heiman,Male,20-29,Employed,<25,NA,Dine In,30-60,>3,1,0,0,1,0,0,1,0-20,4,3,4,4,4,4,3,1
-Yesmin Stoehr,Female,20-29,Student,<25,Monthly,Take away,<30,>3,0,1,0,1,0,1,0,0-20,2,1,4,3,3,3,3,0
-Ittai Podrebarac,Male,20-29,Student,<25,NA,Take away,30-60,3-Jan,0,1,1,1,0,1,1,20-40,3,3,4,2,2,3,3,1
-Pamma Gerwin,Female,20-29,Student,<25,Monthly,Dine In,30-60,>3,0,0,0,0,0,1,0,0-20,4,3,5,5,4,5,4,1
-Anikah De Palma,Female,20-29,Student,<25,Monthly,Dine In,<30,<1,1,0,0,0,0,0,1,20-40,5,5,5,5,3,5,5,1
-Cengiz Hvizdos,Male,20-29,Employed,50-100,Monthly,Dine In,30-60,>3,1,1,1,0,1,0,0,0-20,4,2,3,3,3,3,3,1
-Cianie Salvático,Female,20-29,Student,<25,Monthly,Drive-thru,<30,>3,1,0,0,0,0,1,0,>40,5,4,4,4,4,4,4,1
-Zesar Watterud,Male,20-29,Employed,<25,NA,Take away,<30,>3,0,0,0,0,0,0,1,20-40,4,3,3,4,3,3,4,1
-Jhanae Frydrych,Female,20-29,Student,<25,Monthly,Dine In,<30,>3,0,1,0,0,1,0,1,0-20,4,1,4,5,3,3,4,1
-Laylonie Bondoni,Female,20-29,Student,<25,Monthly,Dine In,30-60,>3,0,0,0,1,0,0,0,0-20,3,2,4,4,3,4,4,0
-Shronda Mickunas,Female,20-29,Student,<25,Weekly,Take away,<30,3-Jan,1,1,1,0,1,0,0,20-40,4,3,2,4,4,3,4,1
-Deanie Kuřidým,Female,20-29,Student,<25,Monthly,Take away,<30,3-Jan,1,0,0,1,0,0,0,0-20,4,3,4,4,4,4,3,1
-Brennae Yando,Female,20-29,Student,<25,Monthly,Take away,<30,<1,1,0,0,0,0,0,0,0-20,5,2,5,5,5,5,2,0
-Jimesha Gerela,Female,20-29,Employed,<25,Monthly,Take away,30-60,>3,1,1,0,1,1,1,1,0-20,4,1,5,4,3,4,4,0
-Wolfram Lucchina,Male,30-39,Employed,50-100,NA,Drive-thru,<30,<1,1,0,1,0,1,0,1,20-40,4,3,3,4,3,3,3,1
-Jovan Bühler,Male,20-29,Employed,<25,Monthly,Dine In,<30,<1,1,0,1,1,1,1,1,0-20,4,4,4,4,4,4,4,1
-Stelmo Ledgerwood,Male,20-29,Employed,25-50,Weekly,Take away,<30,3-Jan,1,0,1,0,0,0,0,20-40,4,3,4,5,5,5,5,1
-Jesssica Samarra,Female,20-29,Self-Employed,50-100,Monthly,Take away,<30,3-Jan,1,1,1,1,0,1,1,0-20,3,4,3,4,3,4,2,1
-Steveland Eschelbach,Male,30-39,Employed,100-150,Monthly,Take away,<30,<1,1,1,1,0,1,0,0,20-40,2,2,5,3,3,4,3,0
-Izzabela Rienecker,Female,20-29,Employed,<25,Monthly,Dine In,<30,<1,0,1,0,1,0,1,0,20-40,5,3,4,3,3,4,5,1
-Glasco Isella,Male,20-29,Employed,25-50,Monthly,Dine In,>180,<1,0,1,1,1,0,1,1,0-20,5,2,5,5,2,4,3,0
-Mintie Kjøll,Female,20-29,Student,<25,NA,Drive-thru,60-120,3-Jan,1,1,1,1,1,0,1,0-20,5,4,4,5,4,4,3,1
-Castyn Brys,Male,>39,Self-Employed,100-150,Monthly,Dine In,60-120,>3,0,1,1,0,0,1,0,20-40,4,3,4,4,3,3,5,1
-Jadaveon Oertle,Male,30-39,Employed,>150,NA,Dine In,30-60,3-Jan,1,1,1,0,0,0,0,20-40,4,3,1,4,4,5,4,1
-Rien Da Costa Fontao,Male,30-39,Employed,>150,Monthly,Drive-thru,<30,3-Jan,0,0,0,0,1,0,0,0-20,4,2,4,4,4,4,2,0
-Markies Robles,Male,20-29,Self-Employed,<25,NA,Take away,<30,>3,0,0,0,0,0,1,1,20-40,5,3,4,4,3,4,3,1
-Mart Keodara,Male,>39,Self-Employed,>150,Weekly,Drive-thru,<30,3-Jan,1,0,0,0,0,0,0,>40,4,5,3,3,3,4,5,1
-Corlette Ekin,Female,20-29,Employed,50-100,Monthly,Dine In,30-60,3-Jan,1,0,0,1,0,1,0,0-20,5,5,5,5,3,5,5,1
-Philana Stortzum,Female,20-29,Employed,25-50,NA,Take away,30-60,>3,1,1,0,0,0,0,1,20-40,3,1,4,4,3,4,4,1
-Barkot Migliaro González,Female,20-29,Employed,50-100,Weekly,Drive-thru,<30,<1,1,1,1,0,0,1,0,20-40,4,3,3,3,2,3,4,1
-Kallee Peltomaa,Female,30-39,Employed,25-50,Monthly,Take away,<30,>3,0,1,0,0,0,1,0,20-40,2,3,5,5,3,5,5,1
-Nyari Winterer,Female,20-29,Employed,25-50,Monthly,Dine In,30-60,3-Jan,1,1,0,1,1,0,1,0-20,3,2,3,3,3,4,3,0
-Manahel Zaidi,Female,20-29,Employed,25-50,Monthly,Take away,<30,<1,0,0,0,1,0,0,0,0-20,3,4,4,3,4,4,3,1
-Soria Eastridge,Female,20-29,Student,<25,Monthly,Take away,<30,>3,0,0,0,1,0,1,0,0-20,4,2,4,4,3,4,1,0
-Lakeia Tie,Female,20-29,Self-Employed,<25,Monthly,Take away,<30,<1,0,1,1,1,1,0,1,0-20,3,3,4,4,5,5,2,1
-Pratyush Adámek,Male,<20,Student,<25,Monthly,Dine In,60-120,>3,0,0,1,1,1,1,0,0-20,5,2,3,4,4,3,5,1
-Harsimar Troldborg,Male,20-29,Employed,<25,Monthly,Take away,<30,>3,1,0,0,0,0,1,0,20-40,4,4,4,4,4,4,4,1
-Webster Šmerák,Male,30-39,Employed,50-100,Monthly,Take away,<30,<1,1,0,0,0,0,0,0,0-20,3,2,5,3,3,5,3,1
-Hannes Dolanský,Male,20-29,Employed,<25,NA,Dine In,30-60,<1,1,0,0,0,1,0,1,20-40,5,4,5,5,3,5,5,1
-Relynn Janish,Female,20-29,Employed,25-50,Weekly,Dine In,30-60,<1,1,0,0,0,0,1,0,20-40,5,4,5,5,1,4,4,1
-Tyrra Dornburg,Female,20-29,Employed,<25,NA,Take away,<30,>3,0,0,0,0,1,0,1,20-40,4,4,5,4,4,5,5,1
-Dynetta Rodriguez Buscia,Female,30-39,Student,50-100,Monthly,Take away,<30,3-Jan,1,0,0,0,0,1,0,20-40,5,3,4,3,4,4,4,1
-Avrora Kamaté,Female,20-29,Self-Employed,<25,Monthly,Take away,30-60,>3,0,0,0,1,1,0,0,0-20,3,1,5,4,3,3,2,1
-Lizzieann Jokelainen,Female,20-29,Employed,25-50,Monthly,Take away,<30,<1,0,0,0,0,0,0,1,0-20,3,4,5,4,3,4,2,1
-Philliph Canidate,Male,<20,Student,<25,Monthly,Drive-thru,<30,<1,1,0,0,0,1,1,0,0-20,3,3,3,3,3,3,3,1
-Jakameron Chivorchian,Male,>39,Employed,100-150,Monthly,Dine In,<30,>3,1,0,0,0,0,1,0,20-40,4,4,4,4,2,3,4,1
-Kahryn Ruvioli,Female,<20,Student,<25,Monthly,Dine In,<30,>3,0,0,0,1,0,0,1,0-20,3,3,2,2,2,4,3,0
-Gayathri Cedeño,Female,>39,Housewife,<25,NA,Take away,<30,>3,1,1,1,1,0,0,0,>40,5,4,3,5,3,5,5,1
-Inna Palova,Female,<20,Student,<25,Monthly,Drive-thru,<30,>3,0,0,0,1,0,0,1,20-40,3,3,2,3,3,3,3,1
-Elmarie Pavlychko,Female,20-29,Employed,25-50,Monthly,Take away,30-60,<1,1,0,0,0,1,0,1,20-40,4,3,5,4,4,5,5,1
-Shellbie Basélica,Female,20-29,Employed,25-50,NA,Take away,30-60,3-Jan,1,1,0,0,0,0,1,0-20,4,3,4,3,2,3,4,1
-Vidala Rexer,Female,20-29,Employed,<25,Monthly,Drive-thru,<30,3-Jan,0,0,1,1,1,0,1,20-40,5,4,3,4,3,3,3,1
-Kamaire Lutgen,Male,<20,Student,<25,NA,Dine In,30-60,>3,1,0,0,1,1,0,0,0-20,5,5,5,5,5,5,5,1
-Zacariah Neier,Male,<20,Student,<25,NA,Dine In,<30,3-Jan,0,0,0,0,0,0,1,0-20,3,3,3,3,4,3,3,1
-Tiffny Vryhof,Female,20-29,Student,<25,Monthly,Drive-thru,<30,>3,0,0,0,0,0,1,1,0-20,4,3,4,4,3,4,3,1
-Deyvid Luneng,Male,20-29,Student,<25,Monthly,Dine In,60-120,3-Jan,1,1,1,0,0,0,1,>40,2,1,5,1,4,3,3,1
-Iri Derviş,Female,20-29,Employed,<25,Monthly,Drive-thru,<30,3-Jan,0,1,0,0,0,0,0,20-40,5,4,3,4,3,3,3,1
-Daiyaan Maestro Mayer,Male,30-39,Student,<25,Monthly,Dine In,30-60,>3,0,0,1,0,0,0,0,20-40,3,3,4,3,3,3,3,1
-Larmont Segărceanu,Male,20-29,Employed,<25,Monthly,Take away,30-60,<1,1,1,1,0,1,1,0,0-20,4,2,3,5,4,4,5,1
-Yanely Tinman,Female,20-29,Employed,<25,Monthly,Take away,<30,>3,0,0,1,0,1,0,0,0-20,3,1,5,3,4,4,5,0
-Joelisa Taban,Female,20-29,Student,<25,Monthly,Dine In,30-60,3-Jan,0,0,1,0,0,1,1,0-20,4,3,2,4,3,4,4,0
-Ruie Juurak,Female,20-29,Self-Employed,25-50,NA,Dine In,<30,<1,1,0,0,1,1,0,0,20-40,4,3,4,5,4,4,4,1
-Ialene Lindenmeyer,Female,20-29,Employed,<25,Monthly,Dine In,<30,>3,0,1,0,0,0,0,0,0-20,2,1,5,4,4,4,1,0
-Danyella Birketvedt,Female,20-29,Employed,25-50,Monthly,Dine In,30-60,3-Jan,1,0,1,0,0,1,1,0-20,3,3,5,4,3,3,4,1
-Brandelynn Villadiego,Female,20-29,Employed,<25,Monthly,Take away,<30,<1,0,1,0,0,0,0,1,0-20,4,3,4,5,5,5,3,1
-Mateos Weines,Male,20-29,Employed,25-50,Weekly,Take away,60-120,<1,1,1,1,1,1,1,0,20-40,5,1,3,3,2,3,3,1
-Carelle Bear,Female,20-29,Employed,<25,NA,Take away,<30,>3,1,1,0,1,0,0,1,0-20,4,2,4,4,3,4,3,1
-Fausto Cautillo,Male,30-39,Employed,<25,Monthly,Take away,<30,3-Jan,1,0,1,1,0,0,0,0-20,3,2,4,4,4,5,4,1
-Angelamarie Mirolla,Female,20-29,Housewife,50-100,Monthly,Drive-thru,<30,>3,0,1,0,1,1,0,0,20-40,3,2,3,3,3,5,4,1
-Xyaire Rustia,Male,20-29,Employed,25-50,Monthly,Take away,<30,>3,1,1,0,0,0,0,1,0-20,3,3,4,5,4,4,4,1
-Yadid Fracarolli,Male,20-29,Employed,<25,Monthly,Take away,<30,3-Jan,0,1,0,0,1,0,1,0-20,4,2,5,3,2,4,4,1
-Bahaa Maidlow,Male,20-29,Employed,50-100,NA,Dine In,30-60,>3,1,0,0,1,0,1,1,20-40,4,2,1,4,1,4,4,1
-Vincene Tangherlini,Female,20-29,Student,<25,Monthly,Take away,<30,>3,0,0,0,1,0,1,0,0-20,2,1,5,2,2,2,2,0
-Sunflower Hagstrom,Female,<20,Student,<25,Monthly,Take away,<30,>3,0,0,1,0,0,0,0,0-20,2,2,3,2,2,2,2,0
-Kaleisha Hustead,Female,20-29,Employed,50-100,NA,Drive-thru,>180,3-Jan,1,0,1,1,0,1,1,20-40,3,2,4,3,1,3,3,0
-Dimitrius Maldonado Galdeano,Male,20-29,Self-Employed,50-100,Monthly,Dine In,60-120,>3,1,1,0,1,1,0,1,0-20,5,5,5,5,5,5,5,1
-Stephano Kullamäe,Male,30-39,Self-Employed,50-100,Weekly,Take away,30-60,3-Jan,1,0,0,1,0,1,0,0-20,4,4,2,4,3,4,5,1
-Dvante Prachensky,Male,20-29,Employed,25-50,Monthly,Dine In,60-120,>3,0,0,1,0,0,1,0,20-40,4,2,4,3,4,4,4,0
-Jaceton Viertel,Male,30-39,Self-Employed,>150,NA,Dine In,120-180,>3,1,0,1,0,0,0,1,20-40,4,3,4,4,3,4,4,1
-Dj Villa,Male,20-29,Self-Employed,>150,Monthly,Drive-thru,30-60,>3,1,1,1,0,0,1,1,>40,4,3,2,3,1,2,2,1
-Monea Wommack,Female,20-29,Employed,<25,Monthly,Dine In,<30,3-Jan,1,0,0,0,1,0,0,20-40,3,3,3,4,3,3,3,1
-Jamene Mogel,Female,20-29,Employed,25-50,Monthly,Take away,<30,<1,1,1,0,0,0,1,0,20-40,4,4,4,4,4,4,4,1
-Dartez Della Schiava,Male,20-29,Self-Employed,25-50,Monthly,Dine In,<30,3-Jan,1,0,1,0,0,0,1,0-20,5,5,5,5,4,5,5,1
-Debbye Fujinaga,Female,30-39,Employed,50-100,Weekly,Dine In,60-120,>3,1,0,0,0,1,1,1,20-40,4,4,5,4,4,5,4,1
-Lakey Ivan Risso,Female,30-39,Employed,25-50,NA,Take away,30-60,<1,1,1,0,1,1,0,1,20-40,4,3,4,5,5,4,5,1
-Minda Łanecka,Female,20-29,Employed,<25,Monthly,Take away,<30,>3,1,1,0,0,0,0,0,0-20,5,3,5,5,4,4,1,1
-Vin Villanova,Male,20-29,Employed,50-100,NA,Take away,<30,>3,1,1,1,0,0,1,0,20-40,3,1,3,3,1,3,2,1
-Sayli Canfora,Female,20-29,Employed,25-50,Monthly,Dine In,30-60,3-Jan,1,0,1,1,0,0,1,0-20,3,3,5,4,3,3,4,1
-Keaisha Bublath,Female,20-29,Self-Employed,<25,Monthly,Take away,<30,>3,0,0,0,1,1,1,1,0-20,3,3,1,4,3,4,4,1
-Adrielle Berlingieri,Female,30-39,Employed,<25,Monthly,NA,<30,<1,0,1,0,0,1,0,1,20-40,3,3,3,3,3,3,3,1
-Azairah Haga,Female,20-29,Employed,25-50,Monthly,Drive-thru,<30,3-Jan,1,0,1,0,0,1,0,20-40,4,3,4,3,3,4,4,1
-Levarn Lysy,Male,30-39,Employed,<25,Monthly,Drive-thru,30-60,>3,1,1,0,1,0,1,0,0-20,4,2,3,4,4,4,4,1
-Farooq Burack,Male,20-29,Student,<25,Monthly,Drive-thru,30-60,>3,0,0,0,1,1,0,0,20-40,3,2,3,3,3,3,3,1
-Fraak Kretlow,Male,20-29,Student,<25,Monthly,Dine In,30-60,>3,0,0,0,0,0,1,1,0-20,3,4,3,3,1,2,3,1
-Darwuin Karczmarczyk,Male,20-29,Self-Employed,50-100,Daily,Drive-thru,<30,>3,1,1,0,0,1,1,1,20-40,4,2,4,4,3,3,3,1
-Forrester Rothberg,Male,30-39,Employed,25-50,Weekly,Dine In,60-120,>3,0,0,0,1,0,0,0,>40,4,5,5,4,4,3,3,1
-Hassain Fuste,Male,<20,Student,<25,Monthly,Drive-thru,30-60,>3,0,0,0,0,0,0,1,0-20,4,4,4,4,4,4,4,0
-Glenton Zeffer,Male,>39,Employed,50-100,NA,Drive-thru,30-60,>3,0,0,0,0,0,0,0,20-40,4,3,5,4,4,4,4,1
-Zinn Sosa Drouville,Male,20-29,Student,<25,Monthly,Take away,<30,>3,0,0,1,1,0,0,0,20-40,3,3,3,3,3,3,3,1
-Norlyn Deissler,Male,20-29,Student,<25,Monthly,Dine In,<30,>3,0,0,0,0,0,1,1,0-20,3,3,3,3,3,3,2,0
-Draken Shaylor,Male,20-29,Student,<25,Monthly,Take away,<30,>3,0,0,1,0,0,0,0,0-20,4,2,3,5,4,4,2,0
-Ninasimone Fornshell,Female,20-29,Employed,<25,NA,Take away,<30,>3,0,1,0,1,1,0,1,0-20,5,4,4,4,4,4,4,1
-Lavender Kriley,Female,<20,Student,<25,Monthly,Take away,<30,>3,0,0,0,1,0,1,0,0-20,3,4,5,5,5,4,4,1
-Emmert Lachappelle,Male,>39,Self-Employed,25-50,Monthly,Dine In,30-60,>3,0,1,1,0,1,0,0,0-20,2,2,1,2,2,3,2,0
-Jamane Faccia,Male,<20,Student,<25,Daily,Take away,<30,>3,0,1,1,1,1,0,0,20-40,5,5,5,5,5,5,5,1
-Dimitrious Riepenhoff,Male,30-39,Student,<25,NA,Dine In,60-120,>3,0,1,0,1,1,0,0,0-20,4,4,5,4,2,3,4,1
-Macrae Van Herk,Male,>39,Self-Employed,25-50,NA,Dine In,60-120,3-Jan,1,0,1,0,0,0,0,20-40,3,3,5,3,2,4,4,1
-Delwayne Nahimana,Male,20-29,Employed,<25,NA,Dine In,60-120,3-Jan,1,0,1,0,0,1,0,>40,5,5,5,5,5,5,5,1
-Creedon Frischknecht,Male,20-29,Student,<25,Monthly,Dine In,30-60,3-Jan,0,1,1,1,1,1,0,0-20,3,2,4,3,3,3,4,0
-Chrishanda Michaca,Female,20-29,Employed,<25,Monthly,Take away,<30,<1,0,0,0,1,0,0,1,0-20,4,4,4,4,4,4,4,1
-Tanden Lukert,Male,20-29,Employed,50-100,Monthly,Dine In,30-60,3-Jan,0,0,0,1,0,1,0,0-20,1,1,5,4,3,3,2,0
+"name","gender","age","status","income","visit","method","timeSpend","location","membershipCard","itemPurchaseCoffee","itemPurchaseCold","itemPurchasePastries","itemPurchaseJuices","itemPurchaseSandwiches","itemPurchaseOthers","spendPurchase","productRate","priceRate","promoRate","ambianceRate","wifiRate","serviceRate","chooseRate","loyal"
+"Jehan Polla De Accattatis","Female","20-29","Student","<25","Monthly","Dine In","30-60","<1",1,0,1,0,1,0,1,"0-20",4,3,5,5,4,4,3,1
+"Zandaya Oldach","Female","20-29","Student","<25","Monthly","Take away","<30","1-3",1,1,1,0,0,0,0,"0-20",4,3,4,4,4,5,2,1
+"Straton Heiman","Male","20-29","Employed","<25",NA,"Dine In","30-60",">3",1,0,0,1,0,0,1,"0-20",4,3,4,4,4,4,3,1
+"Yesmin Stoehr","Female","20-29","Student","<25","Monthly","Take away","<30",">3",0,1,0,1,0,1,0,"0-20",2,1,4,3,3,3,3,0
+"Ittai Podrebarac","Male","20-29","Student","<25",NA,"Take away","30-60","1-3",0,1,1,1,0,1,1,"20-40",3,3,4,2,2,3,3,1
+"Pamma Gerwin","Female","20-29","Student","<25","Monthly","Dine In","30-60",">3",0,0,0,0,0,1,0,"0-20",4,3,5,5,4,5,4,1
+"Anikah De Palma","Female","20-29","Student","<25","Monthly","Dine In","<30","<1",1,0,0,0,0,0,1,"20-40",5,5,5,5,3,5,5,1
+"Cengiz Hvizdos","Male","20-29","Employed","50-100","Monthly","Dine In","30-60",">3",1,1,1,0,1,0,0,"0-20",4,2,3,3,3,3,3,1
+"Cianie Salvático","Female","20-29","Student","<25","Monthly","Drive-thru","<30",">3",1,0,0,0,0,1,0,">40",5,4,4,4,4,4,4,1
+"Zesar Watterud","Male","20-29","Employed","<25",NA,"Take away","<30",">3",0,0,0,0,0,0,1,"20-40",4,3,3,4,3,3,4,1
+"Jhanae Frydrych","Female","20-29","Student","<25","Monthly","Dine In","<30",">3",0,1,0,0,1,0,1,"0-20",4,1,4,5,3,3,4,1
+"Laylonie Bondoni","Female","20-29","Student","<25","Monthly","Dine In","30-60",">3",0,0,0,1,0,0,0,"0-20",3,2,4,4,3,4,4,0
+"Shronda Mickunas","Female","20-29","Student","<25","Weekly","Take away","<30","1-3",1,1,1,0,1,0,0,"20-40",4,3,2,4,4,3,4,1
+"Deanie Kuřidým","Female","20-29","Student","<25","Monthly","Take away","<30","1-3",1,0,0,1,0,0,0,"0-20",4,3,4,4,4,4,3,1
+"Brennae Yando","Female","20-29","Student","<25","Monthly","Take away","<30","<1",1,0,0,0,0,0,0,"0-20",5,2,5,5,5,5,2,0
+"Jimesha Gerela","Female","20-29","Employed","<25","Monthly","Take away","30-60",">3",1,1,0,1,1,1,1,"0-20",4,1,5,4,3,4,4,0
+"Wolfram Lucchina","Male","30-39","Employed","50-100",NA,"Drive-thru","<30","<1",1,0,1,0,1,0,1,"20-40",4,3,3,4,3,3,3,1
+"Jovan Bühler","Male","20-29","Employed","<25","Monthly","Dine In","<30","<1",1,0,1,1,1,1,1,"0-20",4,4,4,4,4,4,4,1
+"Stelmo Ledgerwood","Male","20-29","Employed","25-50","Weekly","Take away","<30","1-3",1,0,1,0,0,0,0,"20-40",4,3,4,5,5,5,5,1
+"Jesssica Samarra","Female","20-29","Self-Employed","50-100","Monthly","Take away","<30","1-3",1,1,1,1,0,1,1,"0-20",3,4,3,4,3,4,2,1
+"Steveland Eschelbach","Male","30-39","Employed","100-150","Monthly","Take away","<30","<1",1,1,1,0,1,0,0,"20-40",2,2,5,3,3,4,3,0
+"Izzabela Rienecker","Female","20-29","Employed","<25","Monthly","Dine In","<30","<1",0,1,0,1,0,1,0,"20-40",5,3,4,3,3,4,5,1
+"Glasco Isella","Male","20-29","Employed","25-50","Monthly","Dine In",">180","<1",0,1,1,1,0,1,1,"0-20",5,2,5,5,2,4,3,0
+"Mintie Kjøll","Female","20-29","Student","<25",NA,"Drive-thru","60-120","1-3",1,1,1,1,1,0,1,"0-20",5,4,4,5,4,4,3,1
+"Castyn Brys","Male",">39","Self-Employed","100-150","Monthly","Dine In","60-120",">3",0,1,1,0,0,1,0,"20-40",4,3,4,4,3,3,5,1
+"Jadaveon Oertle","Male","30-39","Employed",">150",NA,"Dine In","30-60","1-3",1,1,1,0,0,0,0,"20-40",4,3,1,4,4,5,4,1
+"Rien Da Costa Fontao","Male","30-39","Employed",">150","Monthly","Drive-thru","<30","1-3",0,0,0,0,1,0,0,"0-20",4,2,4,4,4,4,2,0
+"Markies Robles","Male","20-29","Self-Employed","<25",NA,"Take away","<30",">3",0,0,0,0,0,1,1,"20-40",5,3,4,4,3,4,3,1
+"Mart Keodara","Male",">39","Self-Employed",">150","Weekly","Drive-thru","<30","1-3",1,0,0,0,0,0,0,">40",4,5,3,3,3,4,5,1
+"Corlette Ekin","Female","20-29","Employed","50-100","Monthly","Dine In","30-60","1-3",1,0,0,1,0,1,0,"0-20",5,5,5,5,3,5,5,1
+"Philana Stortzum","Female","20-29","Employed","25-50",NA,"Take away","30-60",">3",1,1,0,0,0,0,1,"20-40",3,1,4,4,3,4,4,1
+"Barkot Migliaro González","Female","20-29","Employed","50-100","Weekly","Drive-thru","<30","<1",1,1,1,0,0,1,0,"20-40",4,3,3,3,2,3,4,1
+"Kallee Peltomaa","Female","30-39","Employed","25-50","Monthly","Take away","<30",">3",0,1,0,0,0,1,0,"20-40",2,3,5,5,3,5,5,1
+"Nyari Winterer","Female","20-29","Employed","25-50","Monthly","Dine In","30-60","1-3",1,1,0,1,1,0,1,"0-20",3,2,3,3,3,4,3,0
+"Manahel Zaidi","Female","20-29","Employed","25-50","Monthly","Take away","<30","<1",0,0,0,1,0,0,0,"0-20",3,4,4,3,4,4,3,1
+"Soria Eastridge","Female","20-29","Student","<25","Monthly","Take away","<30",">3",0,0,0,1,0,1,0,"0-20",4,2,4,4,3,4,1,0
+"Lakeia Tie","Female","20-29","Self-Employed","<25","Monthly","Take away","<30","<1",0,1,1,1,1,0,1,"0-20",3,3,4,4,5,5,2,1
+"Pratyush Adámek","Male","<20","Student","<25","Monthly","Dine In","60-120",">3",0,0,1,1,1,1,0,"0-20",5,2,3,4,4,3,5,1
+"Harsimar Troldborg","Male","20-29","Employed","<25","Monthly","Take away","<30",">3",1,0,0,0,0,1,0,"20-40",4,4,4,4,4,4,4,1
+"Webster Šmerák","Male","30-39","Employed","50-100","Monthly","Take away","<30","<1",1,0,0,0,0,0,0,"0-20",3,2,5,3,3,5,3,1
+"Hannes Dolanský","Male","20-29","Employed","<25",NA,"Dine In","30-60","<1",1,0,0,0,1,0,1,"20-40",5,4,5,5,3,5,5,1
+"Relynn Janish","Female","20-29","Employed","25-50","Weekly","Dine In","30-60","<1",1,0,0,0,0,1,0,"20-40",5,4,5,5,1,4,4,1
+"Tyrra Dornburg","Female","20-29","Employed","<25",NA,"Take away","<30",">3",0,0,0,0,1,0,1,"20-40",4,4,5,4,4,5,5,1
+"Dynetta Rodriguez Buscia","Female","30-39","Student","50-100","Monthly","Take away","<30","1-3",1,0,0,0,0,1,0,"20-40",5,3,4,3,4,4,4,1
+"Avrora Kamaté","Female","20-29","Self-Employed","<25","Monthly","Take away","30-60",">3",0,0,0,1,1,0,0,"0-20",3,1,5,4,3,3,2,1
+"Lizzieann Jokelainen","Female","20-29","Employed","25-50","Monthly","Take away","<30","<1",0,0,0,0,0,0,1,"0-20",3,4,5,4,3,4,2,1
+"Philliph Canidate","Male","<20","Student","<25","Monthly","Drive-thru","<30","<1",1,0,0,0,1,1,0,"0-20",3,3,3,3,3,3,3,1
+"Jakameron Chivorchian","Male",">39","Employed","100-150","Monthly","Dine In","<30",">3",1,0,0,0,0,1,0,"20-40",4,4,4,4,2,3,4,1
+"Kahryn Ruvioli","Female","<20","Student","<25","Monthly","Dine In","<30",">3",0,0,0,1,0,0,1,"0-20",3,3,2,2,2,4,3,0
+"Gayathri Cedeño","Female",">39","Housewife","<25",NA,"Take away","<30",">3",1,1,1,1,0,0,0,">40",5,4,3,5,3,5,5,1
+"Inna Palova","Female","<20","Student","<25","Monthly","Drive-thru","<30",">3",0,0,0,1,0,0,1,"20-40",3,3,2,3,3,3,3,1
+"Elmarie Pavlychko","Female","20-29","Employed","25-50","Monthly","Take away","30-60","<1",1,0,0,0,1,0,1,"20-40",4,3,5,4,4,5,5,1
+"Shellbie Basélica","Female","20-29","Employed","25-50",NA,"Take away","30-60","1-3",1,1,0,0,0,0,1,"0-20",4,3,4,3,2,3,4,1
+"Vidala Rexer","Female","20-29","Employed","<25","Monthly","Drive-thru","<30","1-3",0,0,1,1,1,0,1,"20-40",5,4,3,4,3,3,3,1
+"Kamaire Lutgen","Male","<20","Student","<25",NA,"Dine In","30-60",">3",1,0,0,1,1,0,0,"0-20",5,5,5,5,5,5,5,1
+"Zacariah Neier","Male","<20","Student","<25",NA,"Dine In","<30","1-3",0,0,0,0,0,0,1,"0-20",3,3,3,3,4,3,3,1
+"Tiffny Vryhof","Female","20-29","Student","<25","Monthly","Drive-thru","<30",">3",0,0,0,0,0,1,1,"0-20",4,3,4,4,3,4,3,1
+"Deyvid Luneng","Male","20-29","Student","<25","Monthly","Dine In","60-120","1-3",1,1,1,0,0,0,1,">40",2,1,5,1,4,3,3,1
+"Iri Derviş","Female","20-29","Employed","<25","Monthly","Drive-thru","<30","1-3",0,1,0,0,0,0,0,"20-40",5,4,3,4,3,3,3,1
+"Daiyaan Maestro Mayer","Male","30-39","Student","<25","Monthly","Dine In","30-60",">3",0,0,1,0,0,0,0,"20-40",3,3,4,3,3,3,3,1
+"Larmont Segărceanu","Male","20-29","Employed","<25","Monthly","Take away","30-60","<1",1,1,1,0,1,1,0,"0-20",4,2,3,5,4,4,5,1
+"Yanely Tinman","Female","20-29","Employed","<25","Monthly","Take away","<30",">3",0,0,1,0,1,0,0,"0-20",3,1,5,3,4,4,5,0
+"Joelisa Taban","Female","20-29","Student","<25","Monthly","Dine In","30-60","1-3",0,0,1,0,0,1,1,"0-20",4,3,2,4,3,4,4,0
+"Ruie Juurak","Female","20-29","Self-Employed","25-50",NA,"Dine In","<30","<1",1,0,0,1,1,0,0,"20-40",4,3,4,5,4,4,4,1
+"Ialene Lindenmeyer","Female","20-29","Employed","<25","Monthly","Dine In","<30",">3",0,1,0,0,0,0,0,"0-20",2,1,5,4,4,4,1,0
+"Danyella Birketvedt","Female","20-29","Employed","25-50","Monthly","Dine In","30-60","1-3",1,0,1,0,0,1,1,"0-20",3,3,5,4,3,3,4,1
+"Brandelynn Villadiego","Female","20-29","Employed","<25","Monthly","Take away","<30","<1",0,1,0,0,0,0,1,"0-20",4,3,4,5,5,5,3,1
+"Mateos Weines","Male","20-29","Employed","25-50","Weekly","Take away","60-120","<1",1,1,1,1,1,1,0,"20-40",5,1,3,3,2,3,3,1
+"Carelle Bear","Female","20-29","Employed","<25",NA,"Take away","<30",">3",1,1,0,1,0,0,1,"0-20",4,2,4,4,3,4,3,1
+"Fausto Cautillo","Male","30-39","Employed","<25","Monthly","Take away","<30","1-3",1,0,1,1,0,0,0,"0-20",3,2,4,4,4,5,4,1
+"Angelamarie Mirolla","Female","20-29","Housewife","50-100","Monthly","Drive-thru","<30",">3",0,1,0,1,1,0,0,"20-40",3,2,3,3,3,5,4,1
+"Xyaire Rustia","Male","20-29","Employed","25-50","Monthly","Take away","<30",">3",1,1,0,0,0,0,1,"0-20",3,3,4,5,4,4,4,1
+"Yadid Fracarolli","Male","20-29","Employed","<25","Monthly","Take away","<30","1-3",0,1,0,0,1,0,1,"0-20",4,2,5,3,2,4,4,1
+"Bahaa Maidlow","Male","20-29","Employed","50-100",NA,"Dine In","30-60",">3",1,0,0,1,0,1,1,"20-40",4,2,1,4,1,4,4,1
+"Vincene Tangherlini","Female","20-29","Student","<25","Monthly","Take away","<30",">3",0,0,0,1,0,1,0,"0-20",2,1,5,2,2,2,2,0
+"Sunflower Hagstrom","Female","<20","Student","<25","Monthly","Take away","<30",">3",0,0,1,0,0,0,0,"0-20",2,2,3,2,2,2,2,0
+"Kaleisha Hustead","Female","20-29","Employed","50-100",NA,"Drive-thru",">180","1-3",1,0,1,1,0,1,1,"20-40",3,2,4,3,1,3,3,0
+"Dimitrius Maldonado Galdeano","Male","20-29","Self-Employed","50-100","Monthly","Dine In","60-120",">3",1,1,0,1,1,0,1,"0-20",5,5,5,5,5,5,5,1
+"Stephano Kullamäe","Male","30-39","Self-Employed","50-100","Weekly","Take away","30-60","1-3",1,0,0,1,0,1,0,"0-20",4,4,2,4,3,4,5,1
+"Dvante Prachensky","Male","20-29","Employed","25-50","Monthly","Dine In","60-120",">3",0,0,1,0,0,1,0,"20-40",4,2,4,3,4,4,4,0
+"Jaceton Viertel","Male","30-39","Self-Employed",">150",NA,"Dine In","120-180",">3",1,0,1,0,0,0,1,"20-40",4,3,4,4,3,4,4,1
+"Dj Villa","Male","20-29","Self-Employed",">150","Monthly","Drive-thru","30-60",">3",1,1,1,0,0,1,1,">40",4,3,2,3,1,2,2,1
+"Monea Wommack","Female","20-29","Employed","<25","Monthly","Dine In","<30","1-3",1,0,0,0,1,0,0,"20-40",3,3,3,4,3,3,3,1
+"Jamene Mogel","Female","20-29","Employed","25-50","Monthly","Take away","<30","<1",1,1,0,0,0,1,0,"20-40",4,4,4,4,4,4,4,1
+"Dartez Della Schiava","Male","20-29","Self-Employed","25-50","Monthly","Dine In","<30","1-3",1,0,1,0,0,0,1,"0-20",5,5,5,5,4,5,5,1
+"Debbye Fujinaga","Female","30-39","Employed","50-100","Weekly","Dine In","60-120",">3",1,0,0,0,1,1,1,"20-40",4,4,5,4,4,5,4,1
+"Lakey Ivan Risso","Female","30-39","Employed","25-50",NA,"Take away","30-60","<1",1,1,0,1,1,0,1,"20-40",4,3,4,5,5,4,5,1
+"Minda Łanecka","Female","20-29","Employed","<25","Monthly","Take away","<30",">3",1,1,0,0,0,0,0,"0-20",5,3,5,5,4,4,1,1
+"Vin Villanova","Male","20-29","Employed","50-100",NA,"Take away","<30",">3",1,1,1,0,0,1,0,"20-40",3,1,3,3,1,3,2,1
+"Sayli Canfora","Female","20-29","Employed","25-50","Monthly","Dine In","30-60","1-3",1,0,1,1,0,0,1,"0-20",3,3,5,4,3,3,4,1
+"Keaisha Bublath","Female","20-29","Self-Employed","<25","Monthly","Take away","<30",">3",0,0,0,1,1,1,1,"0-20",3,3,1,4,3,4,4,1
+"Adrielle Berlingieri","Female","30-39","Employed","<25","Monthly",NA,"<30","<1",0,1,0,0,1,0,1,"20-40",3,3,3,3,3,3,3,1
+"Azairah Haga","Female","20-29","Employed","25-50","Monthly","Drive-thru","<30","1-3",1,0,1,0,0,1,0,"20-40",4,3,4,3,3,4,4,1
+"Levarn Lysy","Male","30-39","Employed","<25","Monthly","Drive-thru","30-60",">3",1,1,0,1,0,1,0,"0-20",4,2,3,4,4,4,4,1
+"Farooq Burack","Male","20-29","Student","<25","Monthly","Drive-thru","30-60",">3",0,0,0,1,1,0,0,"20-40",3,2,3,3,3,3,3,1
+"Fraak Kretlow","Male","20-29","Student","<25","Monthly","Dine In","30-60",">3",0,0,0,0,0,1,1,"0-20",3,4,3,3,1,2,3,1
+"Darwuin Karczmarczyk","Male","20-29","Self-Employed","50-100","Daily","Drive-thru","<30",">3",1,1,0,0,1,1,1,"20-40",4,2,4,4,3,3,3,1
+"Forrester Rothberg","Male","30-39","Employed","25-50","Weekly","Dine In","60-120",">3",0,0,0,1,0,0,0,">40",4,5,5,4,4,3,3,1
+"Hassain Fuste","Male","<20","Student","<25","Monthly","Drive-thru","30-60",">3",0,0,0,0,0,0,1,"0-20",4,4,4,4,4,4,4,0
+"Glenton Zeffer","Male",">39","Employed","50-100",NA,"Drive-thru","30-60",">3",0,0,0,0,0,0,0,"20-40",4,3,5,4,4,4,4,1
+"Zinn Sosa Drouville","Male","20-29","Student","<25","Monthly","Take away","<30",">3",0,0,1,1,0,0,0,"20-40",3,3,3,3,3,3,3,1
+"Norlyn Deissler","Male","20-29","Student","<25","Monthly","Dine In","<30",">3",0,0,0,0,0,1,1,"0-20",3,3,3,3,3,3,2,0
+"Draken Shaylor","Male","20-29","Student","<25","Monthly","Take away","<30",">3",0,0,1,0,0,0,0,"0-20",4,2,3,5,4,4,2,0
+"Ninasimone Fornshell","Female","20-29","Employed","<25",NA,"Take away","<30",">3",0,1,0,1,1,0,1,"0-20",5,4,4,4,4,4,4,1
+"Lavender Kriley","Female","<20","Student","<25","Monthly","Take away","<30",">3",0,0,0,1,0,1,0,"0-20",3,4,5,5,5,4,4,1
+"Emmert Lachappelle","Male",">39","Self-Employed","25-50","Monthly","Dine In","30-60",">3",0,1,1,0,1,0,0,"0-20",2,2,1,2,2,3,2,0
+"Jamane Faccia","Male","<20","Student","<25","Daily","Take away","<30",">3",0,1,1,1,1,0,0,"20-40",5,5,5,5,5,5,5,1
+"Dimitrious Riepenhoff","Male","30-39","Student","<25",NA,"Dine In","60-120",">3",0,1,0,1,1,0,0,"0-20",4,4,5,4,2,3,4,1
+"Macrae Van Herk","Male",">39","Self-Employed","25-50",NA,"Dine In","60-120","1-3",1,0,1,0,0,0,0,"20-40",3,3,5,3,2,4,4,1
+"Delwayne Nahimana","Male","20-29","Employed","<25",NA,"Dine In","60-120","1-3",1,0,1,0,0,1,0,">40",5,5,5,5,5,5,5,1
+"Creedon Frischknecht","Male","20-29","Student","<25","Monthly","Dine In","30-60","1-3",0,1,1,1,1,1,0,"0-20",3,2,4,3,3,3,4,0
+"Chrishanda Michaca","Female","20-29","Employed","<25","Monthly","Take away","<30","<1",0,0,0,1,0,0,1,"0-20",4,4,4,4,4,4,4,1
+"Tanden Lukert","Male","20-29","Employed","50-100","Monthly","Dine In","30-60","1-3",0,0,0,1,0,1,0,"0-20",1,1,5,4,3,3,2,0
