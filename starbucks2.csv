@@ -1,4 +1,4 @@
-name,gender,age,status,income,visit,method,timeSpend,location,membershipCard,itemPurchaseCoffee,itempurchaseCold,itemPurchasePastries,itemPurchaseJuices,itemPurchaseSandwiches,itemPurchaseOthers,spendPurchase,productRate,priceRate,promoRate,ambianceRate,wifiRate,serviceRate,chooseRate,loyal
+name,gender,age,status,income,visit,method,timeSpend,location,membershipCard,itemPurchaseCoffee,itemPurchaseCold,itemPurchasePastries,itemPurchaseJuices,itemPurchaseSandwiches,itemPurchaseOthers,spendPurchase,productRate,priceRate,promoRate,ambianceRate,wifiRate,serviceRate,chooseRate,loyal
 Jehan Polla De Accattatis,Female,20-29,Student,<25,Monthly,Dine In,30-60,<1,1,0,1,0,1,0,1,0-20,4,3,5,5,4,4,3,1
 Zandaya Oldach,Female,20-29,Student,<25,Monthly,Take away,<30,3-Jan,1,1,1,0,0,0,0,0-20,4,3,4,4,4,5,2,1
 Straton Heiman,Male,20-29,Employed,<25,NA,Dine In,30-60,>3,1,0,0,1,0,0,1,0-20,4,3,4,4,4,4,3,1
