@@ -1,0 +1,1001 @@
+"name","gender","age","plataform","action","comedy","horror","drama","other"
+"Jer√≥nimo Henr√≠quez","M",22,"Netflix",1,1,0,0,0
+"Arden Legros","M",33,"Netflix",1,0,1,0,0
+"√ìscar Est√©vez","M",20,"Netflix",1,1,0,0,0
+"Anton Mills","M",30,"Netflix",0,1,1,0,0
+"Phillip Ferry","M",20,"Hulu",0,1,0,0,0
+"Teodoro Nev√°rez","M",26,"Netflix",0,1,1,0,0
+"Darrell Pouros","M",25,"Hulu",1,1,1,0,0
+"Dayna Rice","F",30,"Netflix",0,1,0,0,0
+"Gwen Schulist","F",28,"Netflix",0,1,0,0,0
+"Roberto Shanahan","M",26,"Netflix",0,0,0,0,1
+"Lance Thompson","M",25,"Netflix",0,1,0,0,0
+"Whitney Rutherford","M",30,"Netflix",1,0,1,1,0
+"Vern Boehm","M",28,"Netflix",1,1,1,0,0
+"Carol Abshire","M",26,"Prime Video",1,1,1,1,0
+"Garry Bergnaum","M",20,"Hulu",1,1,1,0,0
+"Claribel Hauck","F",25,"HBO Max",1,0,1,0,0
+"Shanti Schimmel","F",21,"Netflix",0,1,1,0,0
+"Lillian Heaney","F",23,"Netflix",1,0,0,0,0
+"Florencio Reichert","M",20,"HBO Max",1,1,1,1,0
+"Mozell Windler","F",20,"Netflix",1,0,0,0,0
+"Michele Daniel","F",24,"Netflix",0,1,1,1,0
+"Armando Okuneva","M",20,"Netflix",0,1,1,0,0
+"Octavio Monroy","M",29,"Prime Video",1,1,1,1,0
+"Yong Upton","M",20,"Prime Video",1,1,0,0,0
+"Janene VonRueden","F",25,"Netflix",1,1,1,0,0
+"Gladys Doyle","F",20,"Netflix",0,1,1,0,0
+"Rima Waters","F",23,"Otro",1,1,0,0,0
+"Alfonzo Toy","M",24,"HBO Max",0,1,1,1,0
+"Maxwell Hamill","M",30,"Netflix",1,1,0,1,0
+"Reinaldo Fadel","M",28,"Netflix",1,0,0,0,0
+"Francina Rath","F",25,"Netflix",1,1,1,1,0
+"Myrtie Marks","F",29,"Otro",0,0,1,0,0
+"Samantha Rowe","F",23,"HBO Max",0,1,1,0,0
+"Ron Balistreri","M",27,"Hulu",1,1,0,0,0
+"Stacy Runolfsson","F",20,"Netflix",1,1,0,0,0
+"Laverne McDermott","M",20,"Netflix",1,0,1,1,0
+"Orlando Adams","M",24,"HBO Max",0,0,1,1,0
+"Jama Schinner","F",27,"Netflix",1,1,0,0,0
+"Frederick Koepp","M",21,"Netflix",0,1,1,0,0
+"Antoine Herman","M",24,"Netflix",0,1,0,1,0
+"Josh Batz","M",21,"Hulu",0,1,0,1,0
+"Jacques Swaniawski","M",20,"Prime Video",1,1,0,0,0
+"Jos√© Luis","M",26,"Netflix",0,1,1,0,0
+"Jae Leuschke","M",21,"Hulu",1,1,0,0,0
+"Mathew Hettinger","M",20,"Hulu",0,1,0,0,0
+"Salena Marquardt","F",22,"Hulu",0,1,1,1,0
+"Levi Quigley","M",27,"Hulu",1,1,1,0,0
+"Dudley Wilderman","M",22,"Hulu",0,1,0,0,0
+"Paris Blick","M",21,"Netflix",0,1,0,0,0
+"Micah O'Connell","M",24,"Netflix",0,1,1,0,0
+"Breanne Murazik","F",23,"Netflix",1,1,0,0,0
+"Fredrick McKenzie","M",31,"Netflix",1,1,0,1,0
+"Ward Powlowski","M",28,"Prime Video",0,1,0,0,0
+"Elijah Kautzer","M",24,"HBO Max",1,1,0,0,0
+"Alec Kemmer","M",24,"Otro",0,1,1,0,0
+"Johnie Russel","M",31,"Hulu",0,1,1,0,0
+"Miguel Jaskolski","M",22,"Prime Video",1,0,0,0,0
+"Brent Robel","M",27,"Netflix",0,1,1,0,0
+"Carol Lueilwitz","M",20,"Prime Video",1,1,0,0,0
+"Ashley Schuppe","M",24,"HBO Max",1,1,0,1,0
+"Carlota Wisozk","F",31,"Prime Video",1,0,0,0,0
+"Amos Medhurst","M",20,"HBO Max",0,0,0,0,1
+"Marco McDermott","M",31,"Netflix",1,1,1,0,0
+"Kendall Bechtelar","M",25,"HBO Max",0,1,0,1,0
+"Donn Mitchell","M",21,"Netflix",0,1,1,0,0
+"Hana Friesen","F",20,"Netflix",1,1,1,1,0
+"Alejandro Ruiz","M",23,"Hulu",1,1,1,1,0
+"Andre Blanda","M",22,"Netflix",0,1,0,0,0
+"Theo Nienow","M",25,"Prime Video",1,1,0,0,0
+"Harley Russel","M",31,"HBO Max",1,1,0,1,0
+"Terri Swift","F",20,"Netflix",1,1,1,1,0
+"Alan Vandervort","M",24,"Prime Video",0,1,0,0,0
+"Catalina Abreu","F",22,"Netflix",1,1,1,1,0
+"Isaias Welch","M",34,"Netflix",1,1,0,0,0
+"Joesph Kunde","M",25,"Netflix",1,1,1,0,0
+"Eden Price","F",21,"Prime Video",1,1,0,0,0
+"Kelsi Leannon","F",22,"Netflix",1,1,0,0,0
+"Dwain Greenholt","M",33,"HBO Max",0,1,0,0,0
+"Mckinley Corwin","M",21,"Netflix",1,0,0,0,0
+"Elli Conn","F",27,"Hulu",1,1,0,0,0
+"Nicol√°s Mireles","M",29,"HBO Max",0,1,1,0,0
+"William Dibbert","M",20,"Netflix",0,1,0,1,0
+"Larue Hintz","F",28,"Hulu",1,1,1,0,0
+"Pablo Crist","M",31,"Netflix",0,1,1,1,0
+"Winfred Yundt","M",30,"Netflix",0,1,1,0,0
+"Opal Kshlerin","F",27,"Netflix",1,1,1,0,0
+"Grant Schulist","M",23,"Otro",0,1,0,1,0
+"Dion Murray","M",20,"HBO Max",1,1,1,1,0
+"Stephen Powlowski","M",26,"Netflix",0,0,1,1,0
+"Arden Shanahan","M",20,"HBO Max",0,1,0,0,0
+"Suzi Lynch","F",21,"HBO Max",1,1,1,1,0
+"Allen Schiller","M",32,"HBO Max",0,1,0,1,0
+"Demetrice Lubowitz","F",20,"HBO Max",0,1,1,1,0
+"Saul Bartoletti","M",20,"HBO Max",0,0,0,0,1
+"Lael Runolfsson","F",28,"Netflix",1,1,1,0,0
+"Preston Parisian","M",28,"Netflix",0,1,1,0,0
+"Zackary Cormier","M",31,"Netflix",1,0,1,0,0
+"Valentine O'Kon","M",30,"Prime Video",1,1,0,0,0
+"Leandro Upton","M",20,"Hulu",0,1,0,0,0
+"Eugenio Veum","M",25,"Prime Video",0,0,1,0,0
+"Carlos Kuhlman","F",23,"Netflix",1,1,0,0,0
+"Herb Gislason","M",27,"Netflix",1,0,1,0,0
+"Joycelyn Ritchie","F",23,"Prime Video",0,1,1,0,0
+"Phillis Brakus","F",27,"Netflix",0,1,0,0,0
+"Cornelius Grady","M",29,"Hulu",1,1,0,0,0
+"Marhta Ferry","F",34,"Netflix",1,0,0,1,0
+"Aleisha Anderson","F",30,"Netflix",0,1,0,0,0
+"Nancie Haag","F",33,"Netflix",1,0,0,1,0
+"Parker Hayes","M",27,"Hulu",0,1,0,1,0
+"Delpha Buckridge","F",20,"Netflix",1,0,0,0,0
+"Alvina Heidenreich","F",29,"Prime Video",1,1,1,0,0
+"Ferdinand Friesen","M",28,"Hulu",0,0,1,1,0
+"Oralia Schowalter","F",28,"HBO Max",1,1,1,0,0
+"Jean Gutkowski","M",23,"HBO Max",0,1,1,0,0
+"Nathanial Grimes","M",24,"Hulu",1,1,0,0,0
+"Nannie Ward","F",20,"Netflix",1,1,0,1,0
+"Bridget Kris","F",20,"Netflix",1,0,0,0,0
+"Nickolas Vandervort","M",33,"Prime Video",1,1,1,1,0
+"Geoffrey Boehm","M",28,"Netflix",0,0,0,0,1
+"Granville Wisozk","M",20,"Netflix",1,0,1,0,0
+"Saul Sporer","M",23,"Hulu",0,1,1,0,0
+"Tyler Hamill","M",21,"HBO Max",1,1,0,0,0
+"Lucius Shanahan","M",29,"Netflix",0,1,0,0,0
+"Leila Schaefer","F",20,"Netflix",0,0,1,0,0
+"Chauncey Rutherford","M",22,"HBO Max",1,1,1,0,0
+"Sanora Cronin","F",28,"Netflix",0,1,0,1,0
+"Cameron Johns","M",31,"Netflix",1,1,0,0,0
+"Verona McClure","F",28,"Hulu",0,1,0,1,0
+"Bill Upton","M",22,"Prime Video",1,0,1,0,0
+"Elwood Kautzer","M",26,"Hulu",0,1,0,0,0
+"Dahlia Haley","F",27,"Hulu",1,0,0,1,0
+"Mohamed Carter","M",30,"Hulu",0,1,1,1,0
+"Germ√°n Aparicio","M",32,"HBO Max",1,0,1,0,0
+"Adam Beahan","M",22,"HBO Max",1,1,0,0,0
+"Jacalyn Turcotte","F",33,"Netflix",1,1,0,0,0
+"Garry Ullrich","M",26,"HBO Max",1,1,1,0,0
+"Charmain Carroll","F",20,"Prime Video",0,1,1,1,0
+"Sherwood Harris","M",26,"HBO Max",1,0,1,0,0
+"Gordon Runte","M",20,"HBO Max",1,1,0,1,0
+"Devin Rowe","M",21,"Prime Video",1,0,1,0,0
+"Alphonse Lind","M",25,"Otro",1,1,1,0,0
+"Damion Klein","M",25,"Netflix",0,1,0,1,0
+"Hui Fahey","F",22,"Netflix",0,1,1,1,0
+"Kacy Blanda","F",22,"HBO Max",1,1,0,0,0
+"Jeanelle Frami","F",20,"Netflix",1,1,0,0,0
+"Willie Fadel","M",20,"Netflix",1,1,0,0,0
+"Cherly Friesen","F",26,"HBO Max",0,1,1,0,0
+"Quinn Wiegand","M",25,"Hulu",1,1,1,0,0
+"Merri Kling","F",28,"Hulu",0,1,1,1,0
+"Cathy Terry","F",23,"Netflix",0,0,0,0,1
+"Hayden Johns","M",32,"Hulu",0,1,1,1,0
+"Richelle Hyatt","F",22,"Hulu",1,0,0,1,0
+"Irma Kuhic","F",31,"HBO Max",1,0,1,0,0
+"Graham Shields","M",20,"Netflix",1,1,0,1,0
+"Chang Lind","M",29,"Netflix",1,1,0,1,0
+"Arletta Price","F",26,"Netflix",1,1,1,0,0
+"Mariana L√≥pez","F",26,"Hulu",1,1,1,0,0
+"Vicente Guzm√°n","M",25,"Hulu",1,1,0,1,0
+"Travis Dicki","M",20,"Netflix",1,0,0,0,0
+"Alfred Hudson","M",23,"Hulu",1,1,1,1,0
+"Clemente Pagac","M",32,"Netflix",1,1,0,1,0
+"Fred Ferry","M",20,"Netflix",1,1,0,1,0
+"Adina Will","F",34,"HBO Max",1,1,0,0,0
+"Ardelia Leuschke","F",20,"Netflix",1,0,0,0,0
+"C√©sar Su√°rez","M",26,"HBO Max",0,0,0,0,1
+"Maryalice Macejkovic","F",25,"Prime Video",0,1,1,1,0
+"Tristan Gottlieb","M",22,"HBO Max",0,1,1,0,0
+"Joanne Batz","F",28,"HBO Max",1,1,0,0,0
+"Gerry Jones","M",26,"Netflix",1,1,1,1,0
+"Julius Auer","M",25,"Prime Video",1,1,0,0,0
+"Kendrick Parisian","M",27,"Netflix",1,1,0,1,0
+"Margarita Tirado","F",20,"Netflix",1,1,1,0,0
+"Alonzo Schiller","M",24,"Otro",1,1,0,1,0
+"Ad√°n Saiz","M",20,"Prime Video",0,1,1,1,0
+"Ralph Olson","M",22,"Prime Video",1,1,0,1,0
+"Jackqueline Schinner","F",29,"Hulu",1,1,1,1,0
+"Maegan Gottlieb","F",24,"Hulu",1,1,0,0,0
+"C√©sar Vel√°zquez","M",33,"Prime Video",0,1,0,0,0
+"Otha Goodwin","F",29,"HBO Max",0,1,1,0,0
+"Glayds Simonis","F",28,"Netflix",1,1,0,0,0
+"Robert Waters","F",25,"Netflix",1,1,1,0,0
+"Thanh O'Hara","M",20,"HBO Max",1,1,0,0,0
+"Jenny Batz","F",32,"Hulu",1,1,0,0,0
+"Dewey Mills","M",32,"HBO Max",1,1,0,0,0
+"Pierre Abernathy","M",33,"Netflix",1,1,0,1,0
+"Tera Klocko","F",22,"HBO Max",0,1,1,1,0
+"Marylouise Buckridge","F",24,"HBO Max",1,1,0,1,0
+"Kirk Zulauf","M",28,"HBO Max",1,1,1,0,0
+"Cheyenne Hilpert","F",26,"Hulu",1,1,0,0,0
+"Elton Rohan","M",23,"Hulu",1,0,0,1,0
+"Jung Koepp","F",33,"Netflix",0,1,0,0,0
+"Granville Kub","M",20,"HBO Max",0,1,1,0,0
+"Bryce Kuhic","M",22,"HBO Max",1,1,0,0,0
+"Aron Emard","M",24,"Netflix",1,1,0,1,0
+"Clifford West","M",21,"HBO Max",0,1,0,1,0
+"Estela Banda","F",28,"Netflix",0,0,1,1,0
+"Jacqulyn Larkin","F",24,"Netflix",0,1,0,1,0
+"Ra√∫l Fajardo","M",24,"Netflix",1,0,0,0,0
+"Agnes Macejkovic","F",20,"Prime Video",0,1,0,0,0
+"Felton Becker","M",27,"HBO Max",1,1,1,1,0
+"Josef Koch","M",29,"Hulu",1,1,0,0,0
+"Jean Lesch","M",24,"Netflix",0,1,1,1,0
+"Lucas Sandoval","M",33,"Hulu",1,0,1,0,0
+"Marcos Serna","M",28,"Hulu",1,1,0,0,0
+"Eduardo Volkman","M",23,"Prime Video",1,1,1,0,0
+"Devon Hilll","M",30,"Otro",1,1,1,0,0
+"Angelic Batz","F",24,"Netflix",0,1,0,0,0
+"Tajuana Smith","F",20,"Netflix",1,1,1,1,0
+"Mauro Roberts","M",27,"Prime Video",1,1,1,0,0
+"Armand Pfeffer","M",26,"Netflix",0,0,1,1,0
+"Porter Crist","M",28,"Netflix",0,1,0,1,0
+"D√©bora Gallegos","F",24,"HBO Max",1,0,1,1,0
+"Rey Feeney","M",26,"Netflix",1,1,0,1,0
+"Karin Abbott","F",31,"Netflix",0,1,1,1,0
+"Aja Lockman","F",28,"Netflix",0,1,0,0,0
+"Trey Kemmer","M",31,"Hulu",1,1,1,0,0
+"Harriett Zemlak","F",29,"Otro",0,1,1,1,0
+"Noble Russel","M",21,"Hulu",1,1,0,1,0
+"Diedre Schneider","F",33,"Netflix",1,1,1,1,0
+"Derek Towne","M",25,"HBO Max",1,1,0,0,0
+"Dixie Parker","F",32,"Prime Video",0,1,1,1,0
+"Jackson Hintz","M",30,"Netflix",0,0,0,1,0
+"Stewart Zieme","M",28,"Netflix",1,0,0,0,0
+"Blondell Purdy","F",28,"Hulu",1,1,0,0,0
+"Leslie Fisher","M",33,"HBO Max",0,0,0,1,0
+"Demarcus Leannon","M",32,"Prime Video",1,1,1,0,0
+"Adelaide Wehner","F",21,"Hulu",0,1,0,0,0
+"Danna Littel","F",28,"HBO Max",0,0,1,0,0
+"Normand Stracke","M",25,"Netflix",1,1,1,0,0
+"Miguel √Ångel","M",32,"Netflix",1,0,0,0,0
+"German Rowe","M",22,"HBO Max",1,1,1,0,0
+"Abdul Daniel","M",23,"Netflix",1,0,0,1,0
+"Domenic Greenholt","M",20,"Hulu",0,1,1,0,0
+"Billie Thiel","M",21,"Netflix",1,0,0,0,0
+"Rodolfo McCullough","M",20,"Hulu",1,1,0,0,0
+"Clayton Daugherty","M",26,"HBO Max",0,0,1,0,0
+"Giuseppe Gislason","M",26,"HBO Max",0,0,0,1,0
+"Billy Crist","M",23,"Otro",1,1,0,1,0
+"Herma Wiegand","F",24,"Hulu",1,0,0,1,0
+"Leigh Walsh","M",20,"Prime Video",1,1,0,1,0
+"Shayne Brekke","M",27,"Prime Video",1,1,0,1,0
+"Diego Granado","M",23,"HBO Max",1,1,1,0,0
+"Jon Douglas","M",26,"Hulu",1,0,1,0,0
+"Max Hyatt","M",29,"Prime Video",0,1,0,1,0
+"Lauren Thompson","M",21,"HBO Max",0,1,0,0,0
+"Nestor Kling","M",21,"HBO Max",1,0,0,0,0
+"Adaline Kreiger","F",24,"Netflix",1,1,0,0,0
+"Deandrea MacGyver","F",21,"Netflix",0,1,0,0,0
+"Derrick Lakin","M",27,"Netflix",0,1,0,1,0
+"Kristle Johnston","F",25,"Hulu",0,0,1,1,0
+"Nigel Monahan","M",29,"Hulu",1,0,1,1,0
+"Waylon Hoeger","M",20,"Prime Video",1,1,0,0,0
+"Numbers Cronin","M",28,"Hulu",0,1,1,1,0
+"Manie Dietrich","F",28,"Hulu",0,0,0,0,1
+"Rodrigo V√©lez","M",20,"Netflix",1,0,1,0,0
+"Katelin Kuhic","F",23,"Prime Video",0,0,1,0,0
+"Jefferson Grimes","M",25,"Netflix",0,1,1,0,0
+"Dana Breitenberg","M",27,"HBO Max",0,0,1,1,0
+"Patti Collier","F",28,"Netflix",1,0,1,1,0
+"Lynwood Goodwin","M",25,"Netflix",1,1,1,1,0
+"Fernando Ledesma","M",24,"Hulu",1,1,1,0,0
+"Raul Yost","M",31,"HBO Max",1,0,0,0,0
+"Timmy Glover","M",31,"Netflix",1,1,1,0,0
+"Gregg Mayer","M",27,"Netflix",0,0,1,1,0
+"Ahmed Dach","M",28,"Hulu",1,1,0,1,0
+"Linda Jones","F",32,"Netflix",0,1,1,0,0
+"Tyrell Dickinson","M",28,"Hulu",0,0,0,0,1
+"Pablo Abeyta","M",23,"HBO Max",1,0,1,1,0
+"Wilma Terry","F",20,"Netflix",1,1,0,1,0
+"Antonia DuBuque","M",23,"Netflix",1,1,0,0,0
+"Lillie Grimes","F",25,"Netflix",1,1,1,0,0
+"Juan Becker","F",20,"Prime Video",1,1,1,0,0
+"Freddy Bechtelar","M",23,"Netflix",0,0,0,0,1
+"Vicente Delvalle","M",29,"Netflix",0,1,1,0,0
+"Cristopher King","M",24,"Netflix",1,1,1,0,0
+"Asa Kerluke","M",23,"HBO Max",1,0,0,0,0
+"Luis Duran","M",26,"HBO Max",1,0,1,0,0
+"Pedro Streich","M",22,"Prime Video",0,1,1,0,0
+"Victor Feeney","M",20,"Hulu",1,0,1,0,0
+"Jackson Stoltenberg","M",25,"Hulu",0,1,0,0,0
+"Nick Price","M",28,"HBO Max",1,0,1,0,0
+"Ivory Wisozk","M",35,"Netflix",0,0,0,1,0
+"Jos√© Luis","M",20,"Hulu",0,1,0,0,0
+"Quinn Ryan","M",20,"Netflix",1,1,0,0,0
+"Debbi Rau","F",22,"Netflix",0,0,1,0,0
+"Julio C√©sar","M",34,"HBO Max",1,1,1,0,0
+"Gretchen Rath","F",31,"Netflix",0,1,1,0,0
+"Anthony Lesch","M",27,"Netflix",1,1,1,0,0
+"Johnathon Bode","M",22,"Hulu",1,1,1,1,0
+"Lenny Hessel","M",34,"Netflix",0,1,0,0,0
+"Roxanna Dooley","F",23,"Prime Video",0,1,1,1,0
+"Sanford Mosciski","M",21,"Netflix",0,1,0,0,0
+"Ali Walter","M",23,"Netflix",0,1,0,1,0
+"Cyndi Cormier","F",25,"HBO Max",1,1,0,1,0
+"Alonzo Bayer","M",24,"Netflix",1,1,1,0,0
+"Curt Eichmann","M",24,"Prime Video",1,1,0,0,0
+"Lory Torp","F",31,"Hulu",1,1,0,0,0
+"Rae Mitchell","F",27,"Otro",1,1,1,0,0
+"Enid Gerlach","F",27,"HBO Max",1,0,1,0,0
+"Barton Conroy","M",25,"HBO Max",0,1,0,0,0
+"Ferdinand Wiegand","M",23,"Netflix",1,0,0,0,0
+"Lawanda Wunsch","F",20,"Hulu",0,1,1,0,0
+"Kenya Mohr","F",29,"Netflix",0,1,1,0,0
+"Wiley Goodwin","M",20,"Netflix",1,1,0,0,0
+"Clifton Willms","M",26,"Prime Video",1,1,0,0,0
+"George Hand","M",26,"Netflix",0,1,1,1,0
+"Beau Marvin","M",27,"HBO Max",1,1,1,0,0
+"Mohammed Rosenbaum","M",25,"Netflix",1,1,1,0,0
+"Sydney Wunsch","M",23,"Hulu",0,1,1,1,0
+"Maurice Welch","M",24,"Prime Video",0,0,1,0,0
+"Moises Keebler","M",25,"Hulu",1,1,1,0,0
+"Sharri Beahan","F",20,"Netflix",1,1,0,0,0
+"Tennille Abshire","F",28,"Hulu",1,1,0,1,0
+"Gabriel Camarillo","M",20,"Netflix",1,1,0,0,0
+"Rolf Larkin","M",24,"Prime Video",1,0,0,0,0
+"Gerardo Stroman","M",28,"Netflix",0,1,0,1,0
+"Luvenia Welch","F",29,"Netflix",0,1,0,0,0
+"Cristopher Ankunding","M",25,"Prime Video",1,1,0,1,0
+"Osvaldo Heidenreich","M",22,"Netflix",0,0,1,1,0
+"Dann VonRueden","F",25,"Prime Video",1,1,1,1,0
+"Sheldon Raynor","M",23,"Hulu",1,1,0,0,0
+"Donny Conn","M",20,"HBO Max",1,1,0,1,0
+"Noah Parker","M",22,"Otro",1,1,0,0,0
+"Adam Larson","M",22,"Netflix",1,1,0,0,0
+"Carey Ankunding","M",31,"Netflix",1,1,0,1,0
+"Emile Sawayn","M",28,"Netflix",0,0,0,0,1
+"Mart√≠n Alcala","M",20,"Hulu",0,1,0,1,0
+"Marquis Herman","M",20,"Netflix",0,0,1,1,0
+"Robby Medhurst","M",20,"Hulu",1,1,1,1,0
+"Jolynn Murray","F",24,"Hulu",0,1,0,0,0
+"Gemma Mueller","F",27,"Netflix",1,1,1,0,0
+"Janella White","F",23,"Hulu",1,1,0,1,0
+"Burt Nitzsche","M",20,"Hulu",0,1,0,0,0
+"Kenna Tillman","F",25,"Netflix",0,1,1,1,0
+"Katrina Rosenbaum","F",25,"Netflix",1,1,0,0,0
+"Shon O'Reilly","M",24,"Hulu",1,0,0,0,0
+"Ronnie Heaney","M",24,"Netflix",0,0,1,0,0
+"Carie Schamberger","F",22,"Netflix",1,1,1,1,0
+"Norine Jerde","F",22,"Netflix",1,1,1,0,0
+"Eugenia Bechtelar","F",20,"Netflix",1,1,1,1,0
+"Renaldo Nitzsche","M",20,"Otro",0,1,0,0,0
+"Isidro Sawayn","M",23,"Hulu",1,0,0,1,0
+"Talisha Heller","F",28,"Netflix",0,1,1,1,0
+"Jenette Harber","F",29,"Hulu",0,1,1,0,0
+"Clint Torphy","M",20,"Hulu",1,0,0,0,0
+"Vicenta Rippin","F",25,"HBO Max",1,1,0,0,0
+"Heath Turner","M",22,"Netflix",0,1,0,1,0
+"Augustus Russel","M",27,"HBO Max",1,1,1,0,0
+"Kelly Hudson","M",31,"Hulu",1,1,0,0,0
+"Jeramy Larson","M",26,"Netflix",1,0,0,0,0
+"Keith Ruecker","M",23,"Hulu",0,1,0,1,0
+"Eric Price","M",29,"Netflix",0,1,0,0,0
+"Jasper Jaskolski","M",20,"Netflix",0,0,0,0,1
+"Darryl Volkman","M",26,"Netflix",1,1,0,0,0
+"Stan Gulgowski","M",29,"Hulu",0,1,0,0,0
+"Jerrod MacGyver","M",28,"Prime Video",1,1,1,0,0
+"Marlon Hansen","M",20,"HBO Max",0,1,0,0,0
+"Jadwiga Bins","F",27,"HBO Max",1,0,0,1,0
+"Israel Ullrich","M",26,"Netflix",0,1,1,1,0
+"Melodee Mante","F",31,"HBO Max",1,1,1,0,0
+"Scot Rolfson","M",20,"Netflix",1,1,0,0,0
+"Guillermo Salazar","M",20,"HBO Max",0,1,0,0,0
+"Zofia Lubowitz","F",29,"Hulu",1,1,1,0,0
+"Numbers Koepp","M",26,"Netflix",1,0,0,1,0
+"Claudio Turcotte","M",23,"Otro",0,1,0,1,0
+"Charlena Tillman","F",26,"Hulu",1,1,0,1,0
+"Claudio Haro","M",30,"Netflix",1,1,0,1,0
+"Hai Cummerata","M",25,"HBO Max",1,0,1,0,0
+"Gavin Abshire","M",26,"Netflix",1,1,0,1,0
+"Lamont O'Connell","M",26,"HBO Max",1,1,0,0,0
+"Ellis Goyette","F",29,"Netflix",0,1,0,1,0
+"Antone Bartoletti","M",34,"Netflix",1,1,0,1,0
+"Arleen Torp","F",25,"Netflix",1,1,0,1,0
+"Viki Hirthe","F",30,"Netflix",1,1,0,0,0
+"Jermaine Runolfsson","M",24,"Netflix",0,1,0,0,0
+"Jos√© Luis","M",30,"Netflix",1,1,1,1,0
+"Clyde Mohr","M",22,"HBO Max",1,1,0,0,0
+"Bobby Considine","M",20,"HBO Max",1,0,1,1,0
+"Russell Schmidt","M",28,"Hulu",0,1,0,1,0
+"Basil Gaylord","M",24,"Hulu",0,0,0,0,1
+"Roman Little","M",22,"Netflix",0,1,1,0,0
+"Grant Kovacek","M",25,"Otro",1,0,1,1,0
+"Angel Klocko","M",26,"Hulu",1,0,1,1,0
+"Garth Hahn","M",28,"Netflix",1,1,1,0,0
+"Benito Lozada","M",21,"Netflix",1,0,1,0,0
+"Roma Rosenbaum","F",23,"HBO Max",1,1,1,0,0
+"Yolanda Mena","F",30,"Hulu",1,1,0,1,0
+"Clarence Ebert","M",24,"Netflix",1,1,0,0,0
+"Lee Bernier","M",24,"Prime Video",1,1,0,1,0
+"Eric Miller","M",30,"Netflix",0,1,0,0,0
+"Herb Halvorson","M",25,"Hulu",1,0,1,1,0
+"Felipe Monta√±ez","M",20,"Netflix",1,1,1,0,0
+"Curtis Abernathy","M",24,"Netflix",0,1,1,0,0
+"Lucius Swaniawski","M",32,"Netflix",1,0,0,0,0
+"Gustavo Renner","M",25,"Otro",0,0,0,1,0
+"Luigi Towne","M",25,"Netflix",1,0,1,1,0
+"Ingeborg Rau","F",26,"Prime Video",1,0,1,0,0
+"Cary Hills","M",23,"Prime Video",0,0,0,0,1
+"Pa Hoeger","F",20,"Prime Video",1,1,0,1,0
+"Henry Vandervort","M",25,"Prime Video",1,0,0,0,0
+"Paris Schaden","M",20,"Netflix",1,1,0,0,0
+"Carroll Lemke","M",25,"Netflix",1,1,0,1,0
+"Raymon Labadie","M",23,"HBO Max",0,1,0,0,0
+"Cordell Hackett","M",20,"HBO Max",1,1,0,0,0
+"Maria Hyatt","M",29,"Hulu",0,1,0,0,0
+"Eula Weissnat","F",30,"Netflix",1,0,0,1,0
+"Antone Hartmann","M",30,"Netflix",1,0,0,0,0
+"Errol Keebler","M",26,"Otro",1,1,0,0,0
+"Waldo Bradtke","M",22,"HBO Max",1,1,1,1,0
+"Gayle Ondricka","M",26,"Prime Video",1,0,1,0,0
+"Jorge Luis","M",20,"Netflix",0,1,0,1,0
+"Larissa Schinner","F",28,"Netflix",1,1,0,1,0
+"Humberto Conroy","M",28,"Prime Video",0,0,0,0,1
+"Ivory Friesen","M",27,"Prime Video",0,0,1,0,0
+"Filiberto Haley","M",25,"HBO Max",1,1,0,0,0
+"Herbert Dickens","M",24,"Netflix",0,1,1,1,0
+"Benton Hammes","M",20,"Netflix",0,0,0,0,1
+"Digna Grant","F",23,"Netflix",1,1,0,1,0
+"Lon McKenzie","M",33,"HBO Max",1,1,1,0,0
+"Nevada Welch","F",29,"Netflix",1,1,1,0,0
+"Jasper Marks","M",21,"HBO Max",1,1,1,1,0
+"Timoteo Armenta","M",28,"HBO Max",0,0,0,0,1
+"Jodi Goldner","F",22,"Netflix",0,1,0,0,0
+"Damion Heaney","M",20,"Netflix",1,1,0,0,0
+"Darron Jacobi","M",25,"HBO Max",1,1,0,0,0
+"Norbert Erdman","M",20,"Netflix",1,1,1,1,0
+"Grady Tremblay","M",25,"HBO Max",1,1,0,0,0
+"Terina Wyman","F",28,"HBO Max",0,1,1,1,0
+"Chery Kohler","F",23,"Otro",0,1,1,0,0
+"Felisa Torp","F",31,"HBO Max",1,0,0,0,0
+"Tory Hermann","M",31,"HBO Max",1,1,0,1,0
+"Myles Bogan","M",31,"Netflix",0,1,1,0,0
+"Morris Reilly","M",20,"Netflix",1,0,0,1,0
+"Scott Grady","M",22,"Hulu",1,1,0,1,0
+"Horacio Arriaga","M",25,"Netflix",1,1,0,0,0
+"Pamelia Bruen","F",22,"HBO Max",1,1,1,1,0
+"Barney Raynor","M",31,"Netflix",1,1,0,0,0
+"Patrick Willms","M",34,"Otro",1,1,0,0,0
+"Marquis Wolff","M",28,"HBO Max",1,1,0,0,0
+"Barton Mitchell","M",21,"Prime Video",1,1,0,0,0
+"Dorian Mohr","M",27,"HBO Max",0,1,0,0,0
+"Horace Hagenes","M",20,"Hulu",1,1,0,1,0
+"Dana Carter","M",30,"HBO Max",0,1,0,0,0
+"Dewayne Corkery","M",26,"Netflix",1,0,1,0,0
+"Chae Moore","F",20,"Netflix",0,1,0,0,0
+"Ryan Donnelly","M",27,"HBO Max",0,1,0,0,0
+"Manuel Goyette","M",30,"HBO Max",0,1,0,1,0
+"Jared Wilderman","M",27,"Netflix",1,1,1,0,0
+"Harland Terry","M",20,"Netflix",1,0,0,0,0
+"Devorah Bergstrom","F",27,"Netflix",1,0,0,0,0
+"Queenie Heaney","F",29,"Netflix",1,0,0,1,0
+"Ulysses Rau","M",29,"Prime Video",0,1,0,0,0
+"Claretha Gulgowski","F",20,"Netflix",1,1,1,0,0
+"Eugene Nienow","M",23,"Netflix",0,0,1,0,0
+"Clifton Conn","M",30,"Hulu",0,1,0,0,0
+"Guy Mann","M",27,"HBO Max",1,1,0,0,0
+"Norman Rau","M",29,"HBO Max",1,1,1,0,0
+"Deshawn Wintheiser","M",31,"HBO Max",0,1,0,1,0
+"Major Greenfelder","M",29,"HBO Max",1,1,0,0,0
+"Vito Wunsch","M",23,"Prime Video",0,0,0,1,0
+"Miriam D'Amore","F",24,"HBO Max",0,1,1,0,0
+"Wilson Ziemann","M",30,"Hulu",1,1,0,1,0
+"Aleida Sawayn","F",22,"Hulu",1,0,0,0,0
+"Dwight Howe","M",20,"HBO Max",1,0,0,1,0
+"Wilbert Bernhard","M",25,"Hulu",1,1,0,0,0
+"Chad Schmeler","M",27,"Hulu",1,1,1,0,0
+"Cristobal Valverde","M",22,"Prime Video",1,1,1,1,0
+"Pablo Davis","M",24,"HBO Max",1,0,1,0,0
+"Julio McKenzie","F",23,"HBO Max",1,1,0,1,0
+"Stanley Volkman","M",23,"HBO Max",1,1,0,1,0
+"Demetrius Schmeler","M",28,"Netflix",1,1,1,0,0
+"Freddy Kerluke","M",22,"Prime Video",1,1,0,1,0
+"Mark Thompson","M",20,"Netflix",1,1,0,0,0
+"Tommye Witting","F",25,"Netflix",0,1,1,0,0
+"Guadalupe Heredia","F",29,"Prime Video",0,1,1,0,0
+"Miguel Villase√±or","M",33,"Prime Video",0,1,0,0,0
+"Nick Dickinson","M",20,"HBO Max",1,1,1,0,0
+"Leonarda Bosco","F",25,"HBO Max",0,1,0,0,0
+"Kurtis Cummerata","M",29,"Hulu",0,1,0,0,0
+"Ellie Schowalter","F",29,"Prime Video",1,1,1,1,0
+"Roy Beatty","M",26,"HBO Max",1,1,1,0,0
+"Illa Reilly","F",20,"Netflix",0,0,0,0,1
+"Marvin Schimmel","M",27,"HBO Max",1,0,0,0,0
+"Bryce Fritsch","M",20,"Netflix",1,1,1,0,0
+"Chester Conn","M",30,"HBO Max",0,1,1,0,0
+"Emelina MacGyver","F",29,"HBO Max",0,1,0,0,0
+"Demarcus Fritsch","M",24,"Prime Video",1,1,0,0,0
+"Forest Howell","M",33,"Netflix",1,0,1,0,0
+"Saran Romaguera","F",35,"Netflix",0,1,0,0,0
+"Nicolas Wolf","M",20,"HBO Max",0,1,0,0,0
+"Eduardo Batz","M",20,"Hulu",0,1,0,1,0
+"Gaylord Dooley","M",26,"Netflix",1,1,0,0,0
+"Ermelinda Windler","F",33,"HBO Max",0,0,1,1,0
+"Wesley Cole","M",20,"HBO Max",1,0,0,0,0
+"Grover Anderson","M",28,"HBO Max",1,0,0,0,0
+"Shalonda Wilderman","F",22,"Otro",1,1,0,1,0
+"Myrtle Miller","F",20,"Netflix",0,0,1,0,0
+"Madalyn Weissnat","F",24,"HBO Max",1,1,0,0,0
+"Ethan Gislason","M",21,"Hulu",0,1,0,0,0
+"Jonathan Boyle","M",21,"Netflix",1,1,0,1,0
+"Deon Fritsch","M",30,"HBO Max",1,1,0,0,0
+"Florentino Konopelski","M",26,"Netflix",1,1,1,0,0
+"Mirian Zboncak","F",20,"Prime Video",0,0,0,1,0
+"Efrain Wilkinson","M",27,"Hulu",1,0,1,0,0
+"Marline Will","F",26,"Prime Video",1,1,0,0,0
+"Alfredo Auer","M",27,"Hulu",0,1,1,1,0
+"Hai Nikolaus","M",27,"Netflix",1,1,0,0,0
+"Jeffery Schulist","M",25,"Hulu",1,1,0,1,0
+"Dorcas Hahn","F",32,"Hulu",0,1,0,0,0
+"Coleman Robel","M",25,"Prime Video",1,1,1,0,0
+"Errol Koelpin","M",20,"HBO Max",1,1,1,0,0
+"Stuart O'Connell","M",23,"Hulu",0,1,1,1,0
+"Mohamed Gleichner","M",32,"Netflix",1,1,0,1,0
+"Horacio Velasco","M",32,"HBO Max",0,1,1,1,0
+"Franklyn Howe","M",25,"HBO Max",0,1,0,0,0
+"Elouise Moen","F",26,"HBO Max",1,1,0,1,0
+"Calvin Parker","M",20,"Prime Video",1,1,0,0,0
+"Willie Medhurst","M",20,"Hulu",1,1,1,0,0
+"Ivory Nader","M",20,"Hulu",1,1,0,1,0
+"Walker Heathcote","M",24,"HBO Max",1,1,1,1,0
+"Deshawn Wintheiser","M",23,"HBO Max",1,1,0,1,0
+"Karrie Beer","F",23,"Netflix",1,1,1,0,0
+"Chance Daugherty","M",29,"HBO Max",0,1,1,1,0
+"Zulma Rau","F",24,"Otro",1,0,0,1,0
+"Buford Schaden","M",33,"Hulu",1,1,0,1,0
+"Levi Botsford","M",20,"Netflix",1,1,1,0,0
+"Chance Shields","M",20,"Hulu",1,1,1,1,0
+"Deidre Metz","F",30,"Netflix",1,0,1,0,0
+"Lamar Schaden","M",20,"Netflix",1,1,1,0,0
+"Alexis Raynor","M",30,"Netflix",1,1,0,0,0
+"Hai Tremblay","M",25,"Prime Video",1,1,1,1,0
+"Lynwood Lueilwitz","M",22,"HBO Max",1,0,0,1,0
+"Camie Daniel","F",35,"Otro",0,1,1,0,0
+"Aldo Fahey","M",23,"HBO Max",0,0,0,0,1
+"Walton Stiedemann","M",26,"Netflix",0,0,1,1,0
+"Bradly Hermiston","M",24,"Hulu",0,1,0,0,0
+"Jeanne Emmerich","F",24,"HBO Max",1,1,0,0,0
+"Palmer Sawayn","M",28,"Netflix",0,0,0,0,1
+"Glen Heidenreich","M",23,"Hulu",1,1,1,1,0
+"Deangelo Gorczany","M",20,"Otro",1,1,1,1,0
+"Mar√≠a Sol√≠s","F",33,"HBO Max",1,1,0,0,0
+"Perry Collins","M",30,"HBO Max",0,0,0,0,1
+"Trey Metz","M",20,"Netflix",1,0,1,1,0
+"Heriberto Kovacek","M",23,"HBO Max",1,1,1,1,0
+"Alan Windler","M",23,"Netflix",1,1,1,1,0
+"Ardath Nicolas","F",24,"Netflix",1,1,1,0,0
+"Normand Leuschke","M",32,"HBO Max",1,1,1,0,0
+"Enrique Renner","M",30,"Netflix",0,1,1,0,0
+"Pok Champlin","F",20,"Netflix",1,1,0,1,0
+"Luigi Hilll","M",31,"Netflix",1,1,0,1,0
+"Lewis Waelchi","F",26,"HBO Max",1,1,1,0,0
+"Jame Murray","F",31,"Hulu",1,1,0,1,0
+"Ulrike Collins","F",22,"Hulu",0,0,1,0,0
+"Laverne Auer","M",20,"HBO Max",1,1,1,0,0
+"Vivan O'Kon","F",28,"Netflix",1,1,0,1,0
+"Keneth Wiegand","M",24,"Hulu",1,1,1,0,0
+"Magda Conn","F",25,"HBO Max",1,0,0,0,0
+"Cedrick Macejkovic","M",28,"Netflix",0,0,0,0,1
+"Emmanuel Ritchie","M",21,"HBO Max",1,1,0,0,0
+"Gregory Reinger","M",23,"Hulu",0,1,0,0,0
+"Lacy Olson","M",20,"Netflix",0,1,0,1,0
+"Carlo Turcotte","M",20,"Hulu",1,1,0,1,0
+"Carola Gaylord","F",27,"Netflix",0,0,0,0,1
+"Moshe Zemlak","M",25,"Netflix",1,1,1,0,0
+"Octavio Sauer","M",39,"HBO Max",1,1,0,0,0
+"Erich Smitham","M",29,"Hulu",0,1,1,0,0
+"Frank Runte","M",27,"Hulu",1,1,1,0,0
+"Miguel √Ångel","M",24,"Netflix",1,0,0,1,0
+"Leonel Predovic","M",22,"Netflix",0,0,0,0,1
+"Roxann Brakus","F",30,"Netflix",1,0,0,1,0
+"Alden Watsica","M",29,"Netflix",1,1,0,0,0
+"Israel Cruickshank","M",20,"Otro",1,0,0,0,0
+"Von Lang","M",25,"Hulu",1,1,0,0,0
+"Salvador Reichel","M",22,"Hulu",0,1,1,0,0
+"Val Morar","F",21,"HBO Max",0,1,1,1,0
+"Zandra Abernathy","F",30,"HBO Max",1,1,1,1,0
+"V√≠ctor Casas","M",24,"HBO Max",0,1,0,0,0
+"Arianne Toy","F",24,"Hulu",1,1,1,1,0
+"Heriberto Weimann","M",27,"Otro",1,1,1,1,0
+"Doyle Erdman","M",30,"Prime Video",1,1,1,0,0
+"Kayla Hodkiewicz","F",31,"Netflix",0,1,0,1,0
+"Doug Braun","M",29,"Hulu",1,1,0,0,0
+"Daron Balistreri","M",34,"Prime Video",1,1,0,0,0
+"Calista Nader","F",31,"Netflix",0,1,1,0,0
+"C√©sar Rosario","M",20,"Prime Video",1,1,1,1,0
+"Shanice Ledner","F",21,"Netflix",1,1,0,1,0
+"Alexandra Beer","F",26,"Netflix",1,0,0,0,0
+"Lynne Fadel","F",22,"HBO Max",1,1,1,1,0
+"Lucius Murazik","M",26,"Netflix",0,1,0,0,0
+"Rhett Lemke","M",25,"Hulu",1,1,0,0,0
+"Keitha Bergnaum","F",27,"Otro",0,0,1,0,0
+"Romeo Padberg","M",25,"Hulu",1,1,0,0,0
+"Connie Greenfelder","M",20,"HBO Max",1,0,0,0,0
+"Son Hermiston","M",28,"Netflix",1,1,0,1,0
+"Nicholas Hilpert","M",25,"Netflix",1,1,0,0,0
+"Lonnie Sawayn","M",31,"Netflix",1,1,1,0,0
+"Young Terry","M",23,"Netflix",1,1,0,1,0
+"Cory Hagenes","M",20,"Hulu",1,1,0,1,0
+"Clifford Robel","M",27,"HBO Max",1,0,1,0,0
+"Chet Dach","M",24,"HBO Max",0,1,0,0,0
+"Florentino Blick","M",20,"Netflix",1,1,1,1,0
+"Rufus Weber","M",32,"Netflix",1,1,1,0,0
+"Ben Cremin","M",28,"Netflix",0,0,1,1,0
+"Ashleigh Bogisich","F",23,"Otro",0,1,0,0,0
+"Donya Kuhic","F",24,"HBO Max",0,0,0,1,0
+"Hosea Stiedemann","M",21,"HBO Max",0,1,0,0,0
+"Andrew Pollich","M",22,"HBO Max",0,0,0,0,1
+"Garry Nicolas","M",28,"Netflix",1,1,1,0,0
+"Nikita Legros","F",29,"Prime Video",1,1,0,0,0
+"Ossie Jones","F",28,"Netflix",1,0,1,1,0
+"Deandre Buckridge","M",21,"Netflix",1,1,0,1,0
+"Jacqui Koelpin","F",28,"Netflix",1,0,0,0,0
+"Stanford Thiel","M",25,"Otro",1,1,1,0,0
+"Shalonda Towne","F",33,"Netflix",1,1,0,0,0
+"Clifton Eichmann","M",21,"HBO Max",1,1,1,0,0
+"Dick Beatty","M",20,"Hulu",1,1,0,0,0
+"Reina Herzog","F",31,"Netflix",1,1,1,0,0
+"Jos√© Luis","M",20,"Hulu",1,1,1,0,0
+"Aron Mayert","M",27,"Netflix",1,1,0,0,0
+"Harris Wehner","M",28,"Otro",0,1,1,0,0
+"Keenan Yundt","M",34,"HBO Max",1,0,0,1,0
+"Ezekiel Corwin","M",27,"Netflix",1,1,1,0,0
+"Jeffie Windler","F",24,"Netflix",1,1,0,1,0
+"Merilyn Keeling","F",31,"Hulu",1,1,0,1,0
+"Rich Ziemann","M",24,"Otro",1,1,0,1,0
+"Rochelle Mayert","F",25,"HBO Max",1,1,1,0,0
+"Boyd Crona","M",31,"HBO Max",1,0,0,1,0
+"Mary Daniel","M",21,"HBO Max",1,1,0,0,0
+"Man Fritsch","F",21,"Otro",1,1,0,0,0
+"Austin Feest","M",26,"Otro",1,0,0,1,0
+"Gaston Jast","M",21,"HBO Max",0,1,1,1,0
+"Fausto Murray","M",20,"Netflix",0,1,0,0,0
+"Shizuko Abbott","F",26,"HBO Max",1,1,1,0,0
+"Filiberto Wilderman","M",40,"Netflix",0,1,0,1,0
+"Bruno Auer","M",27,"Netflix",1,1,1,0,0
+"Towanda Hilll","F",23,"Netflix",1,1,1,1,0
+"Andreas Johns","M",29,"Netflix",1,1,0,0,0
+"Argentina Parker","F",27,"Netflix",1,1,0,1,0
+"Alec Ferry","M",26,"HBO Max",1,1,1,0,0
+"Scot Daugherty","M",29,"Netflix",0,1,0,0,0
+"Lacy Kling","M",25,"Netflix",1,1,0,1,0
+"Claribel Littel","F",24,"Netflix",0,1,0,0,0
+"Darnell Kuhn","M",34,"HBO Max",1,1,1,1,0
+"Tanner Rosenbaum","M",28,"HBO Max",0,1,0,0,0
+"Joesph Hansen","M",29,"Netflix",1,1,1,0,0
+"Jerrell Hermann","M",24,"Hulu",1,1,1,0,0
+"Jos√© Mar√≠a","M",25,"Hulu",0,0,0,0,1
+"Obdulia Parisian","F",23,"Netflix",1,0,0,0,0
+"Gaylord Treutel","M",20,"HBO Max",0,0,1,1,0
+"Shalon VonRueden","F",24,"HBO Max",0,1,1,0,0
+"Siu Bogan","F",23,"Netflix",1,1,0,0,0
+"Tonda Corwin","F",30,"Netflix",1,1,0,0,0
+"Erwin Ondricka","M",25,"HBO Max",1,1,0,0,0
+"Casey Hahn","M",25,"Netflix",0,1,1,0,0
+"Rickey Collier","M",25,"Netflix",1,0,1,0,0
+"Anastacia Jacobson","F",29,"Netflix",0,0,1,0,0
+"Candra Olson","F",33,"Hulu",1,1,1,0,0
+"Fabian Gerlach","M",29,"HBO Max",1,1,0,1,0
+"August Wunsch","M",20,"Netflix",1,1,0,0,0
+"Dagny Mueller","F",29,"Hulu",1,1,1,0,0
+"Omar Predovic","M",24,"Prime Video",1,1,1,1,0
+"Myles Huels","M",29,"Netflix",1,0,1,1,0
+"Son Osinski","M",26,"HBO Max",1,1,1,0,0
+"Edward Langosh","M",22,"HBO Max",0,1,1,1,0
+"Margaret Aufderhar","F",27,"Netflix",0,1,0,1,0
+"Marty D'Amore","M",35,"Netflix",0,0,0,0,1
+"Isaiah Beer","M",31,"Netflix",1,1,1,1,0
+"Nerissa Sawayn","F",28,"Prime Video",1,1,1,0,0
+"Eduardo Rogahn","M",29,"Netflix",1,1,0,0,0
+"Julian Kuhlman","F",28,"Otro",0,1,1,0,0
+"Nelle Hayes","F",21,"HBO Max",0,1,0,0,0
+"Donovan Moore","M",30,"HBO Max",1,1,1,0,0
+"Tyler Kulas","M",24,"Netflix",1,0,0,0,0
+"Kelley Gorczany","M",30,"Netflix",0,1,0,1,0
+"Malka Treutel","F",23,"Netflix",0,1,0,0,0
+"Harris Pfeffer","M",29,"Netflix",1,0,1,0,0
+"Dong Zemlak","M",32,"Netflix",0,1,0,0,0
+"Daniell Leuschke","F",20,"Netflix",1,1,1,0,0
+"Leopoldo Gerlach","M",20,"Netflix",0,1,1,0,0
+"Taylor Lemke","M",20,"Hulu",1,1,0,1,0
+"Esteban Towne","M",20,"Netflix",0,1,1,0,0
+"Corey Bahringer","M",28,"Netflix",1,0,1,0,0
+"Lilliam Johns","F",24,"Netflix",1,1,0,0,0
+"Odell Hyatt","M",28,"Netflix",1,1,0,0,0
+"Delma Connelly","F",31,"Netflix",1,1,1,0,0
+"Huey Nitzsche","M",29,"Netflix",0,1,0,0,0
+"Deon Dare","M",24,"Netflix",0,0,0,1,0
+"Toney Turcotte","M",20,"Prime Video",0,1,0,0,0
+"Freddy Baumbach","M",33,"HBO Max",0,1,0,0,0
+"Ken Powlowski","M",20,"Netflix",1,1,1,1,0
+"Faustina Gleichner","F",25,"Netflix",1,1,0,1,0
+"Aron Hansen","M",26,"Hulu",1,0,0,1,0
+"Jeanelle Jast","F",28,"Hulu",1,1,1,1,0
+"Korey Donnelly","M",32,"Netflix",0,1,0,1,0
+"Ashlyn Jaskolski","F",28,"Netflix",1,1,0,0,0
+"Gerardo Gleichner","M",25,"Otro",0,0,1,0,0
+"Kendrick Olson","M",29,"HBO Max",0,0,1,0,0
+"Tracy Zulauf","M",32,"Hulu",1,1,1,1,0
+"Lisbeth Mayer","F",22,"HBO Max",1,1,1,1,0
+"Morgan Ritchie","M",28,"HBO Max",1,0,0,0,0
+"Ahmed Mraz","M",31,"Netflix",1,1,1,0,0
+"Damaris Stokes","F",32,"Prime Video",1,1,1,1,0
+"Bennett Kihn","M",25,"Netflix",0,1,1,0,0
+"Harrison Koelpin","M",26,"HBO Max",0,0,1,0,0
+"Gary Kiehn","M",20,"Hulu",1,1,0,0,0
+"Jack Ernser","M",20,"Netflix",1,1,1,0,0
+"Gregg Jacobson","M",34,"HBO Max",1,0,1,0,0
+"Hosea Dietrich","M",36,"Hulu",1,1,1,0,0
+"Rolland Blanda","M",24,"Otro",1,0,1,0,0
+"Tracey Breitenberg","M",23,"Otro",1,0,0,0,0
+"Samuel Koelpin","M",22,"HBO Max",1,1,0,0,0
+"Rusty Botsford","M",20,"Hulu",1,1,0,1,0
+"Hsiu McKenzie","F",28,"Hulu",1,0,0,0,0
+"Ria Ryan","F",24,"Netflix",1,0,1,0,0
+"Henrietta Price","F",20,"HBO Max",1,1,0,0,0
+"Micaela Estrada","F",21,"Netflix",1,1,1,1,0
+"Gabriel Daugherty","M",23,"HBO Max",1,1,1,0,0
+"Jeanett Paucek","F",20,"HBO Max",1,1,1,0,0
+"Nickolas Halvorson","M",20,"Netflix",1,1,1,0,0
+"Earle Daugherty","M",32,"HBO Max",1,1,1,0,0
+"Isiah Zboncak","M",31,"Otro",0,1,0,0,0
+"Stanford Conn","M",25,"Netflix",1,0,0,0,0
+"Phillip Mann","M",20,"Netflix",0,1,1,0,0
+"Fletcher Okuneva","M",23,"Hulu",0,1,0,1,0
+"Gaynelle Schaden","F",26,"Netflix",0,1,0,0,0
+"Camelia Franecki","F",20,"Netflix",1,0,1,0,0
+"Toby Watsica","M",20,"Netflix",0,1,1,0,0
+"Hiedi Hammes","F",20,"Netflix",1,0,0,0,0
+"Damian Denesik","M",21,"Hulu",1,1,0,0,0
+"Dorian Christiansen","M",25,"Netflix",0,1,1,1,0
+"Carol Kris","M",25,"HBO Max",1,1,1,1,0
+"Kieth Fadel","M",22,"HBO Max",1,0,0,0,0
+"Roscoe Hessel","M",20,"HBO Max",1,1,0,1,0
+"Maximo Hills","M",23,"Netflix",1,1,1,0,0
+"Beula Schmidt","F",24,"Netflix",0,1,0,1,0
+"Gracia Legros","F",26,"Hulu",0,1,1,1,0
+"Latoyia Okuneva","F",31,"Netflix",0,0,1,0,0
+"Damion Weimann","M",21,"Netflix",1,1,1,1,0
+"Porfirio Rowe","M",24,"HBO Max",1,1,1,0,0
+"Hern√°n Paz","M",30,"Netflix",0,1,1,0,0
+"Jan Muller","M",24,"HBO Max",1,0,0,1,0
+"Berry Jaskolski","F",28,"HBO Max",1,1,0,1,0
+"Shon Jakubowski","M",20,"Netflix",1,0,1,0,0
+"Lawerence Witting","M",27,"Prime Video",0,1,0,0,0
+"Roger Lowe","M",26,"Netflix",1,1,1,1,0
+"Victoria Ramos","F",27,"Netflix",1,1,1,0,0
+"Lauren Kris","M",21,"Netflix",1,1,1,0,0
+"Lincoln Welch","M",20,"Hulu",0,1,0,0,0
+"Waldo Corkery","M",28,"Otro",1,0,1,1,0
+"Bethann Herzog","F",27,"Netflix",1,1,0,0,0
+"Shante Brekke","F",24,"Hulu",1,0,1,1,0
+"Doug Hagenes","M",20,"Netflix",1,1,1,0,0
+"Elroy Sauer","M",23,"Netflix",1,1,0,0,0
+"Dannie Kohler","M",30,"Otro",0,1,1,0,0
+"Emory Mante","M",20,"Netflix",0,1,0,0,0
+"Tyler Ondricka","M",22,"Netflix",1,1,0,0,0
+"Elisabeth Jacobson","F",27,"Netflix",0,1,1,1,0
+"Bertram Tremblay","M",31,"HBO Max",1,0,1,1,0
+"Leland Bogan","M",20,"HBO Max",1,1,1,0,0
+"Letitia Stoltenberg","F",25,"Netflix",0,1,0,0,0
+"Silvia Mu√±oz","F",22,"Hulu",1,1,0,0,0
+"Arturo Jacobs","M",28,"Prime Video",1,1,1,0,0
+"Everette Hirthe","M",20,"Otro",1,1,1,0,0
+"Scot Bechtelar","M",27,"Netflix",0,1,1,1,0
+"Benito Hern√°ndez","M",33,"Netflix",0,0,0,1,0
+"Pat Schoen","M",23,"Otro",1,1,1,0,0
+"Kamala Olson","F",26,"Prime Video",0,1,1,1,0
+"Cedrick Dickens","M",27,"Netflix",1,1,0,1,0
+"Earl O'Conner","M",20,"HBO Max",1,0,1,1,0
+"Daniel O'Keefe","M",31,"Netflix",0,1,0,1,0
+"Carli Swift","F",25,"Hulu",0,1,0,1,0
+"Joshua Lakin","M",20,"HBO Max",1,1,0,0,0
+"Cristobal Zambrano","M",28,"Netflix",1,1,1,0,0
+"Porter Wisoky","M",29,"Hulu",0,0,1,1,0
+"Dwain Hamill","M",25,"Netflix",1,0,0,1,0
+"Ezequiel Renner","M",28,"Hulu",1,0,0,0,0
+"Patrick Mayert","F",20,"Netflix",0,1,1,1,0
+"Alfredo Qui√±ones","M",26,"Hulu",0,1,1,0,0
+"Arnulfo Marks","M",28,"Netflix",0,1,0,0,0
+"Shantell Douglas","F",29,"Netflix",0,1,1,0,0
+"Anderson Romaguera","M",20,"Netflix",1,1,0,1,0
+"Gaston Streich","M",29,"HBO Max",0,1,0,0,0
+"Audria Hodkiewicz","F",27,"Hulu",0,1,0,1,0
+"Otis Frami","M",21,"HBO Max",0,1,0,0,0
+"Gilberto Price","M",21,"HBO Max",1,1,0,1,0
+"Leeanna Bashirian","F",26,"Hulu",0,1,1,0,0
+"Suzan Zemlak","F",20,"Netflix",0,1,1,0,0
+"Gregg Kreiger","M",25,"HBO Max",1,1,1,0,0
+"Lupe Gleichner","M",28,"HBO Max",0,1,1,0,0
+"Jefferey Considine","M",20,"Prime Video",1,0,1,0,0
+"Federico Ochoa","M",20,"Prime Video",1,1,1,0,0
+"Gertude Macejkovic","F",24,"HBO Max",0,1,0,0,0
+"Lavern Padberg","M",27,"Hulu",0,1,1,0,0
+"Natividad Morar","F",21,"Hulu",1,1,1,1,0
+"Alvera Beier","F",20,"HBO Max",1,1,0,1,0
+"Chandra Kshlerin","F",20,"HBO Max",1,1,1,0,0
+"Lala D'Amore","F",20,"HBO Max",1,0,1,0,0
+"Mohamed Hills","M",20,"Netflix",1,1,0,0,0
+"Michael Hammes","M",29,"Hulu",0,1,0,1,0
+"Federico Cepeda","M",28,"Netflix",1,1,1,0,0
+"Fabian Ebert","M",23,"Netflix",0,1,0,0,0
+"Sammie Medhurst","M",22,"Hulu",1,1,0,0,0
+"Marcelino Bruen","M",29,"Netflix",1,1,0,0,0
+"Blair Sauer","F",20,"Hulu",1,0,1,1,0
+"Jose Weber","M",23,"Netflix",1,1,1,0,0
+"Errol Block","M",28,"Netflix",0,1,0,0,0
+"Lashanda Dietrich","F",27,"HBO Max",1,1,0,1,0
+"Miguel √Ångel","M",29,"HBO Max",0,1,0,0,0
+"Ariel Emard","M",29,"Hulu",1,1,1,1,0
+"Selene O'Hara","F",24,"Prime Video",1,0,1,0,0
+"Gayle Gaylord","M",24,"Hulu",1,0,0,1,0
+"Freeman Ruecker","M",30,"HBO Max",1,1,0,1,0
+"Irvin Cartwright","M",34,"Netflix",1,1,0,0,0
+"Jarrett Rippin","M",28,"Netflix",1,1,1,0,0
+"Zack Cole","M",20,"Netflix",1,1,0,1,0
+"Daphne Ritchie","F",29,"Netflix",0,1,0,0,0
+"Kandy Wintheiser","F",22,"HBO Max",0,0,0,1,0
+"Kathey Lind","F",28,"Prime Video",0,1,1,1,0
+"Odell Pfannerstill","M",20,"HBO Max",0,1,1,0,0
+"Octavia Morissette","F",20,"Netflix",1,1,0,0,0
+"Lucy Stoltenberg","F",20,"Otro",1,1,0,1,0
+"Gene Towne","M",26,"Netflix",1,1,0,0,0
+"Jasper Streich","M",29,"HBO Max",1,0,0,0,0
+"Luis Miguel","M",27,"HBO Max",0,0,1,0,0
+"Wayne Casper","M",28,"HBO Max",1,1,1,1,0
+"Cinthia Denesik","F",35,"Netflix",1,0,0,0,0
+"Kelvin Christiansen","M",21,"Netflix",1,1,0,0,0
+"Cassidy Kutch","F",27,"HBO Max",0,1,1,0,0
+"Boyd Corkery","M",24,"Netflix",0,1,0,1,0
+"Alphonse Skiles","M",27,"Netflix",1,1,0,0,0
+"Emmanuel Gaylord","M",30,"Otro",1,0,1,0,0
+"Antonio Pantoja","M",29,"HBO Max",0,1,0,0,0
+"Carlos Alonso","M",24,"Hulu",1,1,0,0,0
+"Gerald Reichert","M",26,"Otro",1,1,1,1,0
+"Ron Hagenes","M",24,"Otro",1,0,0,0,0
+"Michale Goldner","M",36,"Hulu",1,1,1,0,0
+"Orlando Hyatt","M",29,"HBO Max",0,1,0,1,0
+"Chia Hudson","F",20,"Prime Video",1,1,1,0,0
+"Chong Medhurst","M",24,"Netflix",1,1,0,0,0
+"Alfred Nienow","M",29,"Netflix",1,0,0,0,0
+"Russell Bernier","M",23,"Netflix",1,0,1,1,0
+"Chuck Mante","M",33,"Hulu",1,1,0,0,0
+"Luther Hintz","M",23,"Netflix",1,0,1,1,0
+"Leandro Bogisich","M",28,"Hulu",1,1,1,1,0
+"Horacio Cruickshank","M",26,"Hulu",1,1,0,1,0
+"Stuart Goyette","M",22,"Prime Video",0,0,0,0,1
+"Martin Durgan","M",20,"Prime Video",1,1,0,0,0
+"Billy Renner","M",30,"Netflix",0,1,1,0,0
+"Terrence Ullrich","M",30,"HBO Max",0,1,1,0,0
+"Loren Fay","M",20,"HBO Max",1,1,0,0,0
+"Armando Sep√∫lveda","M",20,"Netflix",0,1,0,0,0
+"Ozzie Harris","M",35,"HBO Max",1,1,0,0,0
+"Edmond Hayes","M",27,"Netflix",0,1,1,0,0
+"Claudio Cruickshank","M",20,"Hulu",1,1,0,1,0
+"Duane Frami","M",26,"Netflix",1,0,1,0,0
+"Hermina Tromp","F",29,"HBO Max",1,1,1,0,0
+"Lamont Senger","M",20,"Hulu",0,1,1,0,0
+"Shane Friesen","M",29,"Prime Video",1,1,0,0,0
+"Theron Orn","M",33,"HBO Max",1,1,1,0,0
+"Daniela Est√©vez","F",20,"Netflix",0,1,0,0,0
+"Lionel Larkin","M",30,"HBO Max",0,1,1,1,0
+"Jacquetta Morissette","F",29,"Otro",1,0,0,0,0
+"Adell Armstrong","F",32,"Prime Video",1,1,0,0,0
+"Francesco Homenick","M",25,"Netflix",1,1,1,1,0
+"Xavier Larkin","M",24,"HBO Max",1,1,0,1,0
+"Lionel Berge","M",34,"Prime Video",0,1,1,0,0
+"Dusti Hintz","F",26,"Prime Video",0,1,0,1,0
+"Miguel Cabrera","M",29,"HBO Max",1,1,1,0,0
+"Lucien Treutel","M",27,"Hulu",1,1,1,1,0
+"Shad Hand","M",29,"Netflix",1,1,0,0,0
+"Janean Hintz","F",26,"HBO Max",1,1,1,1,0
+"Rodney O'Keefe","M",24,"Netflix",1,1,1,0,0
+"Santiago Reyes","M",20,"Netflix",1,1,0,1,0
+"Anisha Hoppe","F",21,"Prime Video",1,0,0,0,0
+"Jan Walsh","M",20,"Hulu",0,1,1,1,0
+"Craig Witting","M",29,"HBO Max",1,1,0,0,0
+"Oliver Heaney","M",25,"HBO Max",1,1,0,0,0
+"Randy Ferry","M",21,"Netflix",1,0,1,0,0
+"Hugo Pagac","M",24,"Netflix",0,1,0,0,0
+"Beatrice DuBuque","F",31,"Prime Video",1,1,1,0,0
+"Rodney Hagenes","M",27,"Netflix",0,1,1,0,0
+"Maryjo Purdy","F",23,"Prime Video",0,0,1,0,0
+"Mui Friesen","F",23,"HBO Max",0,1,0,0,0
+"Agripina King","F",30,"Netflix",1,0,0,1,0
+"Antony Hartmann","M",30,"Netflix",0,1,0,1,0
+"Erick Windler","M",30,"HBO Max",1,1,1,0,0
+"Wilford Pagac","M",20,"Hulu",1,1,0,0,0
+"Craig Jacobi","M",23,"HBO Max",0,1,0,0,0
+"Kiera Zulauf","F",25,"Netflix",0,1,0,1,0
+"Lino Koelpin","M",24,"HBO Max",1,1,0,0,0
+"Jaime West","M",35,"HBO Max",0,1,0,0,0
+"Helen Beer","F",30,"Netflix",1,1,0,1,0
+"Gil Bergstrom","M",20,"Hulu",1,0,0,0,0
+"Ward Armstrong","M",24,"Otro",1,1,0,1,0
+"Joey DuBuque","M",27,"Netflix",1,0,0,0,0
+"Bennett Bauch","M",22,"Netflix",1,1,0,0,0
+"Garret Murray","M",33,"Netflix",1,1,1,1,0
+"Ernie Schowalter","M",27,"Hulu",1,1,1,1,0
+"Margie Jacobi","F",26,"Prime Video",1,1,0,0,0
+"Andr√©s Romero","M",26,"HBO Max",1,0,0,1,0
+"Booker Stehr","M",38,"Netflix",0,1,1,0,0
+"Moses Parisian","M",33,"Netflix",1,1,0,1,0
+"Shawna Kohler","F",27,"Prime Video",1,1,0,1,0
+"Filiberto Zemlak","M",28,"Hulu",1,1,1,0,0
+"Ollie Ortiz","M",27,"Hulu",1,1,1,0,0
+"Virginia Mar√≠n","F",28,"Netflix",1,1,0,0,0
+"Danyelle Wilkinson","F",31,"Hulu",1,1,0,0,0
+"Princess Lubowitz","F",20,"Hulu",1,1,0,0,0
+"Trent Cummings","M",20,"Hulu",0,1,1,1,0
+"Douglass Mann","M",24,"HBO Max",1,1,0,0,0
+"Wanetta Stehr","F",27,"HBO Max",0,1,0,0,0
+"Randell Runolfsson","M",21,"Netflix",0,1,0,0,0
+"Addie Koch","F",26,"Netflix",1,1,0,1,0
+"Ian Jacobs","M",24,"Prime Video",1,1,0,0,0
+"Dong Boehm","M",25,"Otro",0,0,0,0,1
+"Denver Reinger","M",33,"HBO Max",1,0,1,0,0
+"Wallace Durgan","M",20,"Hulu",0,1,0,1,0
+"Julio Kautzer","M",22,"Otro",1,1,0,0,0
+"Harlan Bartell","M",30,"HBO Max",1,1,0,1,0
+"Clemente Cardenas","M",25,"HBO Max",1,1,1,0,0
+"Ray Gleichner","M",24,"Hulu",1,0,1,0,0
+"Nick Bogisich","M",26,"HBO Max",0,1,0,0,0
+"Fatimah Pouros","F",31,"Prime Video",0,1,0,0,0
+"Denis Harris","M",24,"Hulu",0,0,1,0,0
+"Coleman Huel","M",28,"Hulu",1,1,1,0,0
+"Maida Dibbert","F",22,"Hulu",0,0,1,1,0
+"Linwood Kunze","M",31,"Netflix",0,0,0,1,0
+"Percy Zieme","M",20,"Netflix",1,1,1,0,0
+"Earl Dicki","M",20,"Netflix",1,1,1,0,0
+"Morgan Parker","M",35,"Hulu",1,1,1,0,0
+"Roderick Gottlieb","M",29,"Prime Video",0,1,1,0,0
+"Issac Lakin","M",20,"Netflix",1,1,0,0,0
+"Carrie Buckridge","F",20,"HBO Max",1,1,1,0,0
+"Noe Batz","M",22,"HBO Max",1,1,0,0,0
+"Devorah Hettinger","F",23,"Hulu",1,0,0,0,0
+"Gregory Marquardt","M",21,"HBO Max",1,1,0,0,0
+"Isidro Zemlak","M",32,"Netflix",1,1,1,1,0
+"Danille Tillman","F",35,"Hulu",1,1,0,0,0
+"Fritz Renner","M",24,"HBO Max",1,1,0,0,0
+"Bryant Wilderman","M",25,"Netflix",0,0,1,0,0
+"Antonietta Gerhold","F",25,"Hulu",1,1,1,0,0
+"Tana Bergstrom","F",20,"Hulu",1,1,0,0,0
+"Federico Banda","M",35,"Prime Video",0,1,0,0,0
+"Blanche Gaylord","F",32,"Netflix",0,0,0,0,1
+"Burl Koch","M",20,"HBO Max",0,1,1,1,0
+"Jimmie Spinka","F",21,"Netflix",1,1,1,0,0
+"Cedrick Roob","M",28,"Netflix",0,1,0,1,0
+"Carroll Lind","M",20,"Netflix",1,1,0,0,0
+"German Hoeger","M",36,"Netflix",1,1,0,0,0
+"Clint Langworth","M",25,"Netflix",1,1,1,0,0
+"Otto Rempel","M",29,"HBO Max",1,1,0,0,0
+"Asley Swaniawski","F",30,"Netflix",1,1,1,0,0
+"Moises Cruickshank","M",24,"Hulu",0,1,1,0,0
+"Norbert Corkery","M",25,"Netflix",1,1,1,1,0
+"Augustus Hoppe","M",31,"HBO Max",1,0,1,0,0
+"Domingo Ryan","M",26,"HBO Max",1,1,1,1,0
+"Dorian Bins","M",30,"Hulu",1,1,1,1,0
+"Jewel Little","M",27,"Hulu",1,1,0,0,0
+"Arcelia Hackett","F",38,"Hulu",1,1,0,0,0
+"Malcolm Goldner","M",26,"HBO Max",0,1,1,1,0
+"Sallie Borer","F",31,"Hulu",1,1,0,0,0
+"Suk Kihn","F",26,"HBO Max",1,0,1,0,0
+"Lindsy Zboncak","F",24,"Netflix",0,1,1,1,0
+"Carolina Hyatt","F",23,"Hulu",0,1,1,0,0
+"Buffy Towne","F",22,"Prime Video",0,1,0,0,0
+"Susanna Boehm","F",21,"Netflix",1,0,0,0,0
+"Hobert Herzog","M",28,"Hulu",1,1,1,0,0
+"Martin Satterfield","M",28,"HBO Max",1,1,1,1,0
+"Peggie Lockman","F",23,"Netflix",1,1,0,0,0
+"Johnny Anderson","M",24,"HBO Max",0,1,1,1,0
+"Odis Blanda","M",20,"HBO Max",1,0,0,1,0
+"Hayden Brekke","M",24,"HBO Max",0,1,0,1,0
+"Dorotea Almanza","F",36,"HBO Max",0,1,0,0,0
+"Luann White","F",24,"Netflix",1,1,0,1,0
+"Estefana Kozey","F",26,"Netflix",0,1,0,0,0
+"Juan Pedraza","M",20,"HBO Max",0,0,1,0,0
+"Chadwick Maggio","M",26,"Prime Video",1,1,0,1,0
+"Nelly Ritchie","F",20,"HBO Max",1,1,1,1,0
+"Vance Hoeger","M",20,"Netflix",0,1,0,0,0
+"Terrence Weber","M",29,"Otro",0,1,1,0,0
+"Libby Anderson","F",20,"Netflix",1,0,0,1,0
+"Carlita Dickinson","F",24,"Prime Video",0,1,0,0,0
+"Milton Armstrong","M",29,"HBO Max",1,1,0,0,0
+"Gabriel Chapa","M",21,"Netflix",1,1,1,1,0
+"Dusty O'Hara","M",34,"Netflix",1,1,1,1,0
+"Orval Crist","M",30,"Netflix",1,0,0,0,0
+"Luann Bashirian","F",27,"HBO Max",0,1,1,0,0
+"Maurice Crona","M",30,"HBO Max",1,1,0,1,0
+"Abe Reinger","M",37,"HBO Max",1,1,1,0,0
+"Ricardo Cormier","M",26,"HBO Max",1,1,1,1,0
+"Kasha Daugherty","F",33,"Netflix",0,1,1,0,0
+"Allan Jerde","M",28,"HBO Max",1,1,1,1,0
+"Frank Beer","M",21,"Prime Video",1,1,0,0,0
+"Deandrea Mayert","F",24,"Netflix",1,1,0,0,0
+"Alonso Heaney","M",25,"Netflix",1,1,1,0,0
+"Ben Monahan","M",27,"HBO Max",0,1,1,1,0
+"Gary Russel","M",31,"Netflix",0,1,1,0,0
+"Lino Hoppe","M",32,"Netflix",0,1,1,0,0
+"Marcellus Rohan","M",28,"Hulu",1,1,1,0,0
+"Terence Botsford","M",29,"Netflix",1,1,1,0,0
